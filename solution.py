@@ -27,7 +27,6 @@ class Solution:
     
 
     def check_gpu_vram_capacity(self, gpu):
-        print(f"gpu {gpu} has {self.get_gpu_used_vram(gpu)}")
         return self.get_gpu_used_vram(gpu) <= self.instance.V
 
     def get_gpu_used_vram(self, gpu):
@@ -42,8 +41,22 @@ class Solution:
     def allocate(self, gpu, prn):
         self.allocation[gpu][prn] = 1
 
+    def print_current_solution(self):
+        print("------------------")
+        print('Feasibility: ' +str(self.check_feasibility()))
+        print("------------------")
+        for gpu in range(self.instance.n):
+            print("=================================")
+            print(f"gpu {gpu} has {self.get_gpu_used_vram(gpu)} of memory allocated")
+            print("Allocated PRNs:")
+            for prn in range(self.instance.M):
+                if self.allocation[gpu][prn] == 1:
+                    print(f"PRN {prn} with {self.instance.PRNs[prn]['vram']} of memory")
+        
+
 instance = Instance("./instances/dog_1.txt")
 solution = Solution(instance)
 solution.create_initial_solution()
-print(solution.check_feasibility())
+solution.print_current_solution()
+
 
