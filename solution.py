@@ -20,6 +20,7 @@ class Solution:
         # Restricao 1: Checa se o total de VRAM alocado na GPU é menor que V para todas as GPUs
         for gpu in range(self.instance.n):
             if not self.check_gpu_vram_capacity(gpu):
+                print(f"Feasibility error: GPU {gpu} exceeds VRAM capacity.")
                 return False
         
         # Restricao 2: Checa se cada PRN está alocado em exatamente uma GPU
@@ -28,6 +29,7 @@ class Solution:
             for gpu in range(self.instance.n):
                 total_allocations_for_prn += self.allocation[gpu][prn]
             if total_allocations_for_prn != 1:
+                print(f"Feasibility error: PRN {prn} is allocated {total_allocations_for_prn} times.")
                 return False
             
         # TODO: adicionar outras restrições
