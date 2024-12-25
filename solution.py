@@ -5,10 +5,15 @@ class Solution:
         self.instance = instance
         #Cria matriz A, de a[i,j]
         self.allocation =  [[0 for _ in range(instance.M)] for _ in range(instance.n)]
+
         
     
     def create_initial_solution(self):
-        pass
+        for prn in range(self.instance.M):
+            for gpu in range(self.instance.n):
+                if self.get_gpu_used_vram(gpu) + self.instance.PRNs[prn]['vram'] <= self.instance.V:
+                    self.allocate(gpu, prn)
+                    break
 
 
     def check_feasibility(self) -> bool:
@@ -17,16 +22,22 @@ class Solution:
             if not self.check_gpu_vram_capacity(gpu):
                 return False
         # TODO: adicionar outras restrições
-        
+
         return True
     
 
-    def get_gpu_used_vram(self, gpu):
-        return sum(self.allocation[gpu])
-    
     def check_gpu_vram_capacity(self, gpu):
+        print(f"gpu {gpu} has {self.get_gpu_used_vram(gpu)}")
         return self.get_gpu_used_vram(gpu) <= self.instance.V
 
+    def get_gpu_used_vram(self, gpu):
+        used_vram = 0
+        for prn in range(self.instance.M):
+            if self.allocation[gpu][prn] == 1:
+                used_vram += self.instance.PRNs[prn]['vram']
+        
+        return used_vram
+    
         
     def allocate(self, gpu, prn):
         self.allocation[gpu][prn] = 1
@@ -34,4 +45,5 @@ class Solution:
 instance = Instance("./instances/dog_1.txt")
 solution = Solution(instance)
 solution.create_initial_solution()
+print(solution.check_feasibility())
 
