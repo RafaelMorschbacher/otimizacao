@@ -24,9 +24,6 @@ class Instance:
         clean_lines = [line.strip() for line in lines if line.strip()]
         return clean_lines
 
-instance = Instance('./instances/dog_1.txt')
-
-
 
     
    

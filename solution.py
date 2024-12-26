@@ -1,4 +1,5 @@
 from instance import Instance
+import random
 
 class Solution:
     def __init__(self, instance):
@@ -42,6 +43,41 @@ class Solution:
         for gpu in range(self.instance.n):
             total_allocated_types += self.get_gpu_number_of_allocated_types(gpu)
         return total_allocated_types
+    
+    #============================ Vizinhanca ============================
+
+    def generate_neighbor(self):
+        neighbor = self.generate_copy()
+        neighbor.move_random_prn()
+        return neighbor
+
+    def move_random_prn(self):
+        # Randomly choose a PRN and two GPUs
+        prn = random.choice(range(self.instance.M))
+        current_gpu = next(gpu for gpu in range(self.instance.n) if self.allocation[gpu][prn] == 1)
+        target_gpu = random.choice([gpu for gpu in range(self.instance.n) if gpu != current_gpu and self.gpu_can_fit_prn(gpu, prn)])
+
+        # Move PRN from the current GPU to the target GPU
+        self.disallocate(current_gpu, prn)
+        self.allocate(target_gpu, prn)
+        
+        # Check feasibility and return if the move is valid
+        if self.check_feasibility():
+            print(f"Moved PRN {prn} from GPU {current_gpu} to GPU {target_gpu}")
+            return True
+        else:
+            # If moving the PRN violates feasibility, undo the move
+            self.allocation[target_gpu][prn] = 0
+            self.allocate(current_gpu, prn)
+            return False
+
+
+    #============================ FIM Vizinhanca ============================
+
+    def generate_copy(self):
+        copy = Solution(self.instance)
+        copy.allocation = [gpu.copy() for gpu in self.allocation]
+        return copy
 
     def check_gpu_vram_capacity(self, gpu):
         return self.get_gpu_used_vram(gpu) <= self.instance.V
@@ -60,6 +96,9 @@ class Solution:
     def allocate(self, gpu, prn):
         self.allocation[gpu][prn] = 1
 
+    def disallocate(self, gpu, prn):
+        self.allocation[gpu][prn] = 0
+
     def get_gpu_number_of_allocated_types(self, gpu) -> int:
         return len(self.get_gpu_allocated_types(gpu))
     
@@ -75,10 +114,8 @@ class Solution:
     
 
     def print_current_solution(self):
-        print("------------------")
-        print('Feasibility: ' +str(self.check_feasibility()))
-        print('Objective function: ' + str(self.objective_function()))
-        print("------------------")
+        print("=================================")
+        print("=================================")
         for gpu in range(self.instance.n):
             print("=================================")
             print(f"gpu {gpu} has {self.get_gpu_used_vram(gpu)} of memory allocated and {self.get_gpu_number_of_allocated_types(gpu)} types allocated")
@@ -87,11 +124,20 @@ class Solution:
             for prn in range(self.instance.M):
                 if self.allocation[gpu][prn] == 1:
                     print(f"PRN {prn} with {self.instance.PRNs[prn]['vram']} of memory and type {self.instance.PRNs[prn]['type']}")
+
+            print("------------------")
+            print('Feasibility: ' +str(self.check_feasibility()))
+            print('Objective function: ' + str(self.objective_function()))
+            print("------------------")
         
 
 instance = Instance("./instances/dog_1.txt")
 solution = Solution(instance)
 solution.create_initial_solution()
+
+for _ in range(700):
+    neighbor = solution.generate_neighbor()
+    if neighbor.objective_function() <= solution.objective_function():
+        solution = neighbor
+
 solution.print_current_solution()
-
-
