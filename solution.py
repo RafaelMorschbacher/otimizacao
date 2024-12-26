@@ -11,7 +11,7 @@ class Solution:
     def create_initial_solution(self):
         for prn in range(self.instance.M):
             for gpu in range(self.instance.n):
-                if self.get_gpu_used_vram(gpu) + self.instance.PRNs[prn]['vram'] <= self.instance.V:
+                if self.gpu_can_fit_prn(gpu, prn):
                     self.allocate(gpu, prn)
                     break
 
@@ -54,6 +54,8 @@ class Solution:
         
         return used_vram
     
+    def gpu_can_fit_prn(self, gpu, prn):
+        return self.get_gpu_used_vram(gpu) + self.instance.PRNs[prn]['vram'] <= self.instance.V
         
     def allocate(self, gpu, prn):
         self.allocation[gpu][prn] = 1
@@ -68,6 +70,8 @@ class Solution:
                 prn_type = instance.PRNs[prn]['type']
                 allocated_types.add(prn_type)
         return allocated_types
+    
+    
     
 
     def print_current_solution(self):
