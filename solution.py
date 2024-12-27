@@ -47,13 +47,7 @@ class Solution:
     #============================ Vizinhanca ============================
 
     def local_search(self, max_iterations=100):
-        """
-        Perform local search by generating neighbors and accepting the best one.
-        Args:
-            max_iterations (int): Maximum number of iterations to try improving the solution.
-        Returns:
-            Solution: The best solution found after local search.
-        """
+        #Realiza busca local gerando vizinhos e aceitando o melhor.
         current_solution = self
         best_solution = current_solution
         best_objective = current_solution.objective_function()
@@ -154,12 +148,12 @@ class Solution:
         print("------------------")
         
 
-instance = Instance("./instances/dog_1.txt")
+instance = Instance("./instances/dog_2.txt")
 solution = Solution(instance)
 solution.create_initial_solution()
 #solution.print_solution()
 
-best_solution = solution.local_search(max_iterations=1000)
+best_solution = solution.local_search(max_iterations=5000)
 best_solution.print_solution()
 
 print(f'Initial solution objective function: {solution.objective_function()}')
