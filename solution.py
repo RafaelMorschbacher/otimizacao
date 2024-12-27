@@ -46,6 +46,29 @@ class Solution:
     
     #============================ Vizinhanca ============================
 
+    def local_search(self, max_iterations=100):
+        """
+        Perform local search by generating neighbors and accepting the best one.
+        Args:
+            max_iterations (int): Maximum number of iterations to try improving the solution.
+        Returns:
+            Solution: The best solution found after local search.
+        """
+        current_solution = self
+        best_solution = current_solution
+        best_objective = current_solution.objective_function()
+        for _ in range(max_iterations):
+            # Generate a neighbor solution
+            neighbor = current_solution.generate_neighbor()
+            # Evaluate the neighbor's objective function
+            if neighbor.objective_function() <= best_objective:
+                # If the neighbor is better, update the best solution
+                best_solution = neighbor
+                best_objective = neighbor.objective_function()
+                current_solution = best_solution  # Move to the best neighbor
+        return best_solution
+
+
     def generate_neighbor(self):
         neighbor = self.generate_copy()
         neighbor.move_random_prn()
@@ -67,7 +90,7 @@ class Solution:
             return True
         else:
             # If moving the PRN violates feasibility, undo the move
-            self.allocation[target_gpu][prn] = 0
+            self.disallocate(target_gpu, prn)
             self.allocate(current_gpu, prn)
             return False
 
@@ -115,29 +138,25 @@ class Solution:
 
     def print_current_solution(self):
         print("=================================")
-        print("=================================")
         for gpu in range(self.instance.n):
             print("=================================")
-            print(f"gpu {gpu} has {self.get_gpu_used_vram(gpu)} of memory allocated and {self.get_gpu_number_of_allocated_types(gpu)} types allocated")
-            print(f"Allocated types: {self.get_gpu_allocated_types(gpu)}")
-            print("Allocated PRNs:")
+            print(f"GPU {gpu}")
+            print(f"allocated memory: {self.get_gpu_used_vram(gpu)}")
+            print(f"{self.get_gpu_number_of_allocated_types(gpu)} allocated types: {self.get_gpu_allocated_types(gpu)}")
+            print("Allocated PRNs: ")
             for prn in range(self.instance.M):
                 if self.allocation[gpu][prn] == 1:
-                    print(f"PRN {prn} with {self.instance.PRNs[prn]['vram']} of memory and type {self.instance.PRNs[prn]['type']}")
-
-            print("------------------")
-            print('Feasibility: ' +str(self.check_feasibility()))
-            print('Objective function: ' + str(self.objective_function()))
-            print("------------------")
+                    print(f"PRN {prn}, size: {self.instance.PRNs[prn]['vram']}, type: {self.instance.PRNs[prn]['type']}")
+        print("------------------")
+        print('Feasibility: ' +str(self.check_feasibility()))
+        print('Objective function: ' + str(self.objective_function()))
+        print("------------------")
         
 
 instance = Instance("./instances/dog_1.txt")
 solution = Solution(instance)
 solution.create_initial_solution()
 
-for _ in range(700):
-    neighbor = solution.generate_neighbor()
-    if neighbor.objective_function() <= solution.objective_function():
-        solution = neighbor
+best_solution = solution.local_search(max_iterations=100)
 
-solution.print_current_solution()
+best_solution.print_current_solution()
