@@ -60,11 +60,13 @@ class Solution:
         for _ in range(max_iterations):
             # Generate a neighbor solution
             neighbor = current_solution.generate_neighbor()
+            neighbor_obj_function = neighbor.objective_function()
             # Evaluate the neighbor's objective function
-            if neighbor.objective_function() <= best_objective:
+            if neighbor_obj_function <= best_objective:
                 # If the neighbor is better, update the best solution
+                print(f'Moving to neighbor with objective function = {neighbor_obj_function}')
                 best_solution = neighbor
-                best_objective = neighbor.objective_function()
+                best_objective = neighbor_obj_function
                 current_solution = best_solution  # Move to the best neighbor
         return best_solution
 
@@ -86,7 +88,6 @@ class Solution:
         
         # Check feasibility and return if the move is valid
         if self.check_feasibility():
-            print(f"Moved PRN {prn} from GPU {current_gpu} to GPU {target_gpu}")
             return True
         else:
             # If moving the PRN violates feasibility, undo the move
@@ -136,7 +137,7 @@ class Solution:
     
     
 
-    def print_current_solution(self):
+    def print_solution(self):
         print("=================================")
         for gpu in range(self.instance.n):
             print("=================================")
@@ -156,7 +157,10 @@ class Solution:
 instance = Instance("./instances/dog_1.txt")
 solution = Solution(instance)
 solution.create_initial_solution()
+#solution.print_solution()
 
-best_solution = solution.local_search(max_iterations=100)
+best_solution = solution.local_search(max_iterations=1000)
+best_solution.print_solution()
 
-best_solution.print_current_solution()
+print(f'Initial solution objective function: {solution.objective_function()}')
+print(f'Best solution objective function: {best_solution.objective_function()}')
