@@ -1,5 +1,6 @@
 from instance import Instance
 import random
+import time
 
 class Solution:
     def __init__(self, instance):
@@ -24,7 +25,7 @@ class Solution:
                 print(f"Feasibility error: GPU {gpu} exceeds VRAM capacity.")
                 return False
         
-        # Restricao 2: Checa se cada PRN está alocado em exatamente uma GPU
+        # Restricao 3: Checa se cada PRN está alocado em exatamente uma GPU
         for prn in range(self.instance.M):
             total_allocations_for_prn = 0
             for gpu in range(self.instance.n):
@@ -124,7 +125,7 @@ class Solution:
         allocated_types = set()
         for prn in range(self.instance.M):
             if self.allocation[gpu][prn] == 1:
-                prn_type = instance.PRNs[prn]['type']
+                prn_type = self.instance.PRNs[prn]['type']
                 allocated_types.add(prn_type)
         return allocated_types
     
@@ -146,15 +147,17 @@ class Solution:
         print('Feasibility: ' +str(self.check_feasibility()))
         print('Objective function: ' + str(self.objective_function()))
         print("------------------")
-        
 
-instance = Instance("./instances/dog_2.txt")
-solution = Solution(instance)
-solution.create_initial_solution()
-#solution.print_solution()
+def main():        
+    instance = Instance("./instances/dog_2.txt")
+    solution = Solution(instance)
+    solution.create_initial_solution()
+    #solution.print_solution()
 
-best_solution = solution.local_search(max_iterations=5000)
-best_solution.print_solution()
+    best_solution = solution.local_search(max_iterations=5000)
+    best_solution.print_solution()
 
-print(f'Initial solution objective function: {solution.objective_function()}')
-print(f'Best solution objective function: {best_solution.objective_function()}')
+    print(f'Initial solution objective function: {solution.objective_function()}')
+    print(f'Best solution objective function: {best_solution.objective_function()}')
+
+main()
