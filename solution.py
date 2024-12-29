@@ -19,7 +19,7 @@ class Solution:
 
 
     def check_feasibility(self) -> bool:
-        # Restricao 1: Checa se o total de VRAM alocado na GPU é menor que V para todas as GPUs
+        # Restricao 1: Checa se o total de VRAM alocado na GPU é menor que V para todas as GPUs (restriçao 1)
         for gpu in range(self.instance.n):
             if not self.check_gpu_vram_capacity(gpu):
                 print(f"Feasibility error: GPU {gpu} exceeds VRAM capacity.")
@@ -149,6 +149,7 @@ class Solution:
         print("------------------")
 
 def main():        
+    start_time = time.time()
     instance = Instance("./instances/dog_2.txt")
     solution = Solution(instance)
     solution.create_initial_solution()
@@ -159,5 +160,6 @@ def main():
 
     print(f'Initial solution objective function: {solution.objective_function()}')
     print(f'Best solution objective function: {best_solution.objective_function()}')
+    print("--- %.3f seconds ---" % (time.time() - start_time))
 
 main()
