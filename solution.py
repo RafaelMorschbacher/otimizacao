@@ -1,5 +1,6 @@
 from instance import Instance
 import random
+import time
 
 class Solution:
     def __init__(self, instance):
@@ -24,7 +25,7 @@ class Solution:
                 print(f"Feasibility error: GPU {gpu} exceeds VRAM capacity.")
                 return False
         
-        # Restricao 2: Checa se cada PRN está alocado em exatamente uma GPU
+        # Restricao 3: Checa se cada PRN está alocado em exatamente uma GPU
         for prn in range(self.instance.M):
             total_allocations_for_prn = 0
             for gpu in range(self.instance.n):
@@ -47,6 +48,9 @@ class Solution:
     #============================ Vizinhanca ============================
 
     def local_search(self, max_iterations=100):
+        no_improve_count = 0
+        max_no_improve = 100  # Número máximo de iterações sem melhora
+        
         #Realiza busca local gerando vizinhos e aceitando o melhor.
         current_solution = self
         best_solution = current_solution
@@ -56,12 +60,18 @@ class Solution:
             neighbor = current_solution.generate_neighbor()
             neighbor_obj_function = neighbor.objective_function()
             # Evaluate the neighbor's objective function
-            if neighbor_obj_function <= best_objective:
+            if neighbor_obj_function < best_objective:
                 # If the neighbor is better, update the best solution
                 print(f'Moving to neighbor with objective function = {neighbor_obj_function}')
                 best_solution = neighbor
                 best_objective = neighbor_obj_function
                 current_solution = best_solution  # Move to the best neighbor
+                no_improve_count = 0  # Reset contador
+            else:
+                no_improve_count += 1
+            if no_improve_count >= max_no_improve:
+                print("No improvement for 100 iterations. Stopping local search.")
+                break
         return best_solution
 
 
@@ -74,8 +84,16 @@ class Solution:
         # Randomly choose a PRN and two GPUs
         prn = random.choice(range(self.instance.M))
         current_gpu = next(gpu for gpu in range(self.instance.n) if self.allocation[gpu][prn] == 1)
-        target_gpu = random.choice([gpu for gpu in range(self.instance.n) if gpu != current_gpu and self.gpu_can_fit_prn(gpu, prn)])
+        candidate_gpus = [gpu for gpu in range(self.instance.n) if gpu != current_gpu and self.gpu_can_fit_prn(gpu, prn)]
 
+        # If there are no candidates, skip this move
+        if not candidate_gpus:
+            print(f"No valid GPUs found to move PRN {prn} from GPU {current_gpu}.")
+            return False
+        
+        # Randomly choose a target GPU from the valid candidates
+        target_gpu = random.choice(candidate_gpus)
+       
         # Move PRN from the current GPU to the target GPU
         self.disallocate(current_gpu, prn)
         self.allocate(target_gpu, prn)
@@ -88,6 +106,50 @@ class Solution:
             self.disallocate(target_gpu, prn)
             self.allocate(current_gpu, prn)
             return False
+        
+    def ils(self, perturbation_size, max_iterations):
+        current_solution = self
+        best_solution = current_solution
+        best_objective = current_solution.objective_function()
+        no_improve_count = 0
+        max_no_improve = 50  # Número máximo de iterações sem melhora
+
+        for iteration in range(max_iterations):
+            print(f"Iteration {iteration} - Best Objective: {best_objective}")
+            
+            # Busca local
+            current_solution = current_solution.local_search()
+            current_objective = current_solution.objective_function()
+
+            # Atualiza melhor solução
+            if current_objective < best_objective:
+                best_solution = current_solution
+                best_objective = current_objective
+                no_improve_count = 0 
+            else:
+                no_improve_count += 1
+
+            # Critério de parada baseado em falta de melhora
+            if no_improve_count >= max_no_improve:
+                print("No improvement for multiple iterations. Stopping ILS.")
+                break
+
+            # Perturbação
+            current_solution = best_solution.generate_copy()
+            current_solution.perturbation(perturbation_size)
+
+        return best_solution
+
+    def perturbation(self, k):
+        for _ in range(k):
+            if not self.move_random_prn():
+                continue
+        # Após a perturbação, reequilibra alocações aleatórias
+        for prn in range(self.instance.M):
+            current_gpu = next((gpu for gpu in range(self.instance.n) if self.allocation[gpu][prn] == 1), None)
+            if current_gpu is None:  # PRN desalocado, tentar realocar
+                target_gpu = random.choice([gpu for gpu in range(self.instance.n) if self.gpu_can_fit_prn(gpu, prn)])
+                self.allocate(target_gpu, prn)
 
 
     #============================ FIM Vizinhanca ============================
@@ -124,11 +186,9 @@ class Solution:
         allocated_types = set()
         for prn in range(self.instance.M):
             if self.allocation[gpu][prn] == 1:
-                prn_type = instance.PRNs[prn]['type']
+                prn_type = self.instance.PRNs[prn]['type']
                 allocated_types.add(prn_type)
         return allocated_types
-    
-    
     
 
     def print_solution(self):
@@ -146,15 +206,19 @@ class Solution:
         print('Feasibility: ' +str(self.check_feasibility()))
         print('Objective function: ' + str(self.objective_function()))
         print("------------------")
-        
 
-instance = Instance("./instances/dog_2.txt")
-solution = Solution(instance)
-solution.create_initial_solution()
-#solution.print_solution()
+def main():        
+    start_time = time.time()
+    instance = Instance("./instances/dog_2.txt")
+    solution = Solution(instance)
+    solution.create_initial_solution()
+    #solution.print_solution()
 
-best_solution = solution.local_search(max_iterations=5000)
-best_solution.print_solution()
+    best_solution = solution.ils(perturbation_size=3, max_iterations=5000)
+    best_solution.print_solution()
 
-print(f'Initial solution objective function: {solution.objective_function()}')
-print(f'Best solution objective function: {best_solution.objective_function()}')
+    print(f'Initial solution objective function: {solution.objective_function()}')
+    print(f'Best solution objective function: {best_solution.objective_function()}')
+    print("--- %.3f seconds ---" % (time.time() - start_time))
+
+main()
