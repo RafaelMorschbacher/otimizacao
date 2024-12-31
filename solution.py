@@ -3,11 +3,12 @@ import random
 import time
 
 class Solution:
-    def __init__(self, instance):
+    def __init__(self, instance, output_file=None):
         self.instance = instance
         #Cria matriz A, de a[i,j]
         self.allocation =  [[0 for _ in range(instance.M)] for _ in range(instance.n)]
-
+        #Abre arquivo de saída
+        self.output_file = output_file
         
     
     def create_initial_solution(self):
@@ -22,7 +23,7 @@ class Solution:
         # Restricao 1: Checa se o total de VRAM alocado na GPU é menor que V para todas as GPUs
         for gpu in range(self.instance.n):
             if not self.check_gpu_vram_capacity(gpu):
-                print(f"Feasibility error: GPU {gpu} exceeds VRAM capacity.")
+                self.log_and_self.log_and_print(f"Feasibility error: GPU {gpu} exceeds VRAM capacity.")
                 return False
         
         # Restricao 3: Checa se cada PRN está alocado em exatamente uma GPU
@@ -31,7 +32,7 @@ class Solution:
             for gpu in range(self.instance.n):
                 total_allocations_for_prn += self.allocation[gpu][prn]
             if total_allocations_for_prn != 1:
-                print(f"Feasibility error: PRN {prn} is allocated {total_allocations_for_prn} times.")
+                self.log_and_self.log_and_print(f"Feasibility error: PRN {prn} is allocated {total_allocations_for_prn} times.")
                 return False
             
         # TODO: adicionar outras restrições
@@ -62,7 +63,7 @@ class Solution:
             # Evaluate the neighbor's objective function
             if neighbor_obj_function < best_objective:
                 # If the neighbor is better, update the best solution
-                print(f'Moving to neighbor with objective function = {neighbor_obj_function}')
+                self.log_and_print(f'Moving to neighbor with objective function = {neighbor_obj_function}')
                 best_solution = neighbor
                 best_objective = neighbor_obj_function
                 current_solution = best_solution  # Move to the best neighbor
@@ -70,7 +71,7 @@ class Solution:
             else:
                 no_improve_count += 1
             if no_improve_count >= max_no_improve:
-                print("No improvement for 100 iterations. Stopping local search.")
+                self.log_and_print("No improvement for 100 iterations. Stopping local search.")
                 break
         return best_solution
 
@@ -88,7 +89,7 @@ class Solution:
 
         # If there are no candidates, skip this move
         if not candidate_gpus:
-            print(f"No valid GPUs found to move PRN {prn} from GPU {current_gpu}.")
+            self.log_and_print(f"No valid GPUs found to move PRN {prn} from GPU {current_gpu}.")
             return False
         
         # Randomly choose a target GPU from the valid candidates
@@ -115,7 +116,7 @@ class Solution:
         max_no_improve = 50  # Número máximo de iterações sem melhora
 
         for iteration in range(max_iterations):
-            print(f"Iteration {iteration} - Best Objective: {best_objective}")
+            self.log_and_print(f"Iteration {iteration} - Best Objective: {best_objective}")
             
             # Busca local
             current_solution = current_solution.local_search()
@@ -131,7 +132,7 @@ class Solution:
 
             # Critério de parada baseado em falta de melhora
             if no_improve_count >= max_no_improve:
-                print("No improvement for multiple iterations. Stopping ILS.")
+                self.log_and_print(f'No improvement for multiple iterations. Stopping ILS after {iteration+1} iterations.')
                 break
 
             # Perturbação
@@ -155,7 +156,7 @@ class Solution:
     #============================ FIM Vizinhanca ============================
 
     def generate_copy(self):
-        copy = Solution(self.instance)
+        copy = Solution(self.instance, self.output_file)
         copy.allocation = [gpu.copy() for gpu in self.allocation]
         return copy
 
@@ -190,35 +191,44 @@ class Solution:
                 allocated_types.add(prn_type)
         return allocated_types
     
+    def log_and_print(self, message):
+        log_and_print(message, self.output_file)
+
 
     def print_solution(self):
-        print("=================================")
+        self.log_and_print("=================================")
         for gpu in range(self.instance.n):
-            print("=================================")
-            print(f"GPU {gpu}")
-            print(f"allocated memory: {self.get_gpu_used_vram(gpu)}")
-            print(f"{self.get_gpu_number_of_allocated_types(gpu)} allocated types: {self.get_gpu_allocated_types(gpu)}")
-            print("Allocated PRNs: ")
+            self.log_and_print("=================================")
+            self.log_and_print(f"GPU {gpu}")
+            self.log_and_print(f"allocated memory: {self.get_gpu_used_vram(gpu)}")
+            self.log_and_print(f"{self.get_gpu_number_of_allocated_types(gpu)} allocated types: {self.get_gpu_allocated_types(gpu)}")
+            self.log_and_print("Allocated PRNs: ")
             for prn in range(self.instance.M):
                 if self.allocation[gpu][prn] == 1:
-                    print(f"PRN {prn}, size: {self.instance.PRNs[prn]['vram']}, type: {self.instance.PRNs[prn]['type']}")
-        print("------------------")
-        print('Feasibility: ' +str(self.check_feasibility()))
-        print('Objective function: ' + str(self.objective_function()))
-        print("------------------")
+                    self.log_and_print(f"PRN {prn}, size: {self.instance.PRNs[prn]['vram']}, type: {self.instance.PRNs[prn]['type']}")
+        self.log_and_print("------------------")
+        self.log_and_print('Feasibility: ' +str(self.check_feasibility()))
+        self.log_and_print('Objective function: ' + str(self.objective_function()))
+        self.log_and_print("------------------")
+
+def log_and_print(message, output_file=None):
+    print(message)
+    if output_file:
+        output_file.write(message + '\n')
 
 def main():        
     start_time = time.time()
-    instance = Instance("./instances/dog_2.txt")
-    solution = Solution(instance)
+    instance = Instance("./instances/dog_1.txt")
+    output_file = open("output.txt", "w")
+    solution = Solution(instance, output_file)
     solution.create_initial_solution()
     #solution.print_solution()
 
-    best_solution = solution.ils(perturbation_size=3, max_iterations=5000)
+    best_solution = solution.ils(perturbation_size=3, max_iterations=10)
     best_solution.print_solution()
-
-    print(f'Initial solution objective function: {solution.objective_function()}')
-    print(f'Best solution objective function: {best_solution.objective_function()}')
-    print("--- %.3f seconds ---" % (time.time() - start_time))
+    time.sleep(2)
+    log_and_print(f'Initial solution objective function: {solution.objective_function()}', solution.output_file)
+    log_and_print(f'Best solution objective function: {best_solution.objective_function()}', solution.output_file)
+    log_and_print("--- %.3f seconds ---" % (time.time() - start_time), solution.output_file)
 
 main()
