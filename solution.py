@@ -114,7 +114,9 @@ class Solution:
         best_objective = current_solution.objective_function()
         no_improve_count = 0
         max_no_improve = 50  # Número máximo de iterações sem melhora
-
+        self.log_and_print("=====================================================================")
+        self.log_and_print("                        ITERATED LOCAL SEARCH")
+        self.log_and_print("=====================================================================")
         for iteration in range(max_iterations):
             self.log_and_print(f"Iteration {iteration} - Best Objective: {best_objective}")
             
@@ -196,7 +198,9 @@ class Solution:
 
 
     def print_solution(self):
-        self.log_and_print("=================================")
+        self.log_and_print("=====================================================================")
+        self.log_and_print("                        CURRENT SOLUTION")
+        self.log_and_print("=====================================================================")
         for gpu in range(self.instance.n):
             self.log_and_print("=================================")
             self.log_and_print(f"GPU {gpu}")
@@ -206,29 +210,12 @@ class Solution:
             for prn in range(self.instance.M):
                 if self.allocation[gpu][prn] == 1:
                     self.log_and_print(f"PRN {prn}, size: {self.instance.PRNs[prn]['vram']}, type: {self.instance.PRNs[prn]['type']}")
-        self.log_and_print("------------------")
+        self.log_and_print("=================================")
         self.log_and_print('Feasibility: ' +str(self.check_feasibility()))
         self.log_and_print('Objective function: ' + str(self.objective_function()))
-        self.log_and_print("------------------")
+        self.log_and_print("=================================")
 
 def log_and_print(message, output_file=None):
     print(message)
     if output_file:
         output_file.write(message + '\n')
-
-def main():        
-    start_time = time.time()
-    instance = Instance("./instances/dog_1.txt")
-    output_file = open("output.txt", "w")
-    solution = Solution(instance, output_file)
-    solution.create_initial_solution()
-    #solution.print_solution()
-
-    best_solution = solution.ils(perturbation_size=3, max_iterations=10)
-    best_solution.print_solution()
-    time.sleep(2)
-    log_and_print(f'Initial solution objective function: {solution.objective_function()}', solution.output_file)
-    log_and_print(f'Best solution objective function: {best_solution.objective_function()}', solution.output_file)
-    log_and_print("--- %.3f seconds ---" % (time.time() - start_time), solution.output_file)
-
-main()
