@@ -18,13 +18,18 @@ def run_experiment(instace_file_path, output_file_path ,max_iterations, perturba
     log_and_print("=====================================================================", output_file)
     log_and_print(f'Initial solution objective function: {solution.objective_function()}', solution.output_file)
     log_and_print(f'Best solution objective function: {best_solution.objective_function()}', solution.output_file)
+    log_and_print(f'Number of iterations: {max_iterations}', solution.output_file)
+    log_and_print(f'Perturbation size: {perturbation_size}', solution.output_file)
     log_and_print("--- %.3f seconds ---" % (time.time() - start_time), solution.output_file)
 
 
 
 
 def main():        
-    run_experiment("./instances/dog_1.txt", "dog_1_it10_pert_3.txt", max_iterations=10, perturbation_size=3)
+    run_experiment("./instances/dog_1.txt", "dog_1_it=1K_pert=3.txt", max_iterations=30, perturbation_size=3)
+    #run_experiment("./instances/dog_1.txt", "dog_1_it=1K_pert=10txt", max_iterations=1000, perturbation_size=10)
+    #run_experiment("./instances/dog_1.txt", "dog_1_it=1K_pert=20.txt", max_iterations=1000, perturbation_size=20)
+    
 
 
 main()
