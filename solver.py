@@ -4,15 +4,8 @@ from solution import log_and_print
 
 
 def solve_instance_glpk(instance_path, time_limit, output_file):
-    # Parameters
-    #n = 4                # Number of GPUs
-    #m = 8                # Number of PRNs (neural network parts)
-    #T = 3                # Number of PRN types
-    #V = 16               # Maximum VRAM capacity per GPU
-    #v = [4, 6, 5, 3, 7, 2, 8, 4]  # VRAM consumption of each PRN
-    #t = [1, 1, 2, 3, 2, 3, 1, 2]  # Type of each PRN
 
-    # ======================READING FILE======================
+    # ======================LER ARQUIVO======================
     instance = Instance(instance_path)
     n = instance.n
     m = instance.M
@@ -23,37 +16,37 @@ def solve_instance_glpk(instance_path, time_limit, output_file):
 
     #==========================================================
 
-    # Generate the z_kj matrix (constant values indicating if PRN j is of type k)
+    # Matriz indicando se a PRN j é do tipo k
     z = [[1 if t[j] == k + 1 else 0 for j in range(m)] for k in range(T)]
 
     # Model
     model = LpProblem("Optimal_Distribution", LpMinimize)
 
-    # Decision variables
+    # Variaveis de decisao
     a = [[LpVariable(f"a_{i}_{j}", cat=LpBinary) for j in range(m)] for i in range(n)]
     x = [[LpVariable(f"x_{k}_{i}", cat=LpBinary) for i in range(n)] for k in range(T)]
 
-    # Objective function: Minimize the number of GPUs with distinct types
+    # F objetivo
     model += lpSum(x[k][i] for k in range(T) for i in range(n))
 
-    # Constraint 1: GPU capacity cannot be exceeded
+    # Restrição 1: A capacidade da GPU não pode ser excedida
     for i in range(n):
         model += lpSum(v[j] * a[i][j] for j in range(m)) <= V, f"Capacity_GPU_{i}"
 
-    # Constraint 2: Each PRN must be assigned to exactly one GPU
+    # Restrição 2: Cada PRN deve ser atribuído a exatamente uma GPU
     for j in range(m):
         model += lpSum(a[i][j] for i in range(n)) == 1, f"Assignment_PRN_{j}"
 
-    # Constraint 3: Activate x[k][i] if a PRN of type k is assigned to GPU i
+    # Restrição 3: Ativar x[k][i] se um PRN do tipo k for atribuído à GPU i
     for k in range(T):
         for i in range(n):
             model += x[k][i] >= lpSum(a[i][j] * z[k][j] for j in range(m)) / m, f"Activate_Type_{k}_GPU_{i}"
 
-    # Solve the problem using GLPK
+    # Resolver o problema usando GLPK
     model.solve(GLPK(msg=False, timeLimit=time_limit))
 
-    # Output the results    
-    if model.status == 1:  # Optimal solution found
+    # Resultados    
+    if model.status == 1:  # Sol encontrada
         log_and_print("Optimal solution found!", output_file)
         log_and_print(f"Objective value (number of distinct GPU types): {model.objective.value()}", output_file)
 
@@ -72,5 +65,5 @@ def solve_instance_glpk(instance_path, time_limit, output_file):
 
 output_file = open("output_dog_6.txt", "w") 
 instance_path = "instances/dog_6.txt"
-time_limit = 60*60*12  # 12 hours
+time_limit = 60*60*12  # 12 horas
 solve_instance_glpk(instance_path, time_limit, output_file)

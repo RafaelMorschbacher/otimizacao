@@ -5,9 +5,8 @@ import time
 class Solution:
     def __init__(self, instance, output_file=None):
         self.instance = instance
-        #Cria matriz A, de a[i,j]
+        #Matriz A, de a[i,j]
         self.allocation =  [[0 for _ in range(instance.M)] for _ in range(instance.n)]
-        #Abre arquivo de saída
         self.output_file = output_file
         
     
@@ -35,8 +34,6 @@ class Solution:
                 self.log_and_print(f"Feasibility error: PRN {prn} is allocated {total_allocations_for_prn} times.")
                 return False
             
-        # TODO: adicionar outras restrições
-
         return True
     
     def objective_function(self):
@@ -60,14 +57,12 @@ class Solution:
             # Generate a neighbor solution
             neighbor = current_solution.generate_neighbor()
             neighbor_obj_function = neighbor.objective_function()
-            # Evaluate the neighbor's objective function
             if neighbor_obj_function < best_objective:
-                # If the neighbor is better, update the best solution
                 self.log_and_print(f'Moving to neighbor with objective function = {neighbor_obj_function}')
                 best_solution = neighbor
                 best_objective = neighbor_obj_function
-                current_solution = best_solution  # Move to the best neighbor
-                no_improve_count = 0  # Reset contador
+                current_solution = best_solution  
+                no_improve_count = 0  
             else:
                 no_improve_count += 1
             if no_improve_count >= max_no_improve:
@@ -82,28 +77,26 @@ class Solution:
         return neighbor
 
     def move_random_prn(self):
-        # Randomly choose a PRN and two GPUs
+        # Escolhe aleatoriamente um PRN e duas GPUs
         prn = random.choice(range(self.instance.M))
         current_gpu = next(gpu for gpu in range(self.instance.n) if self.allocation[gpu][prn] == 1)
         candidate_gpus = [gpu for gpu in range(self.instance.n) if gpu != current_gpu and self.gpu_can_fit_prn(gpu, prn)]
 
-        # If there are no candidates, skip this move
         if not candidate_gpus:
             self.log_and_print(f"No valid GPUs found to move PRN {prn} from GPU {current_gpu}.")
             return False
         
-        # Randomly choose a target GPU from the valid candidates
+        # Escolhe aleatoriamente uma GPU alvo entre as candidatas válidas
         target_gpu = random.choice(candidate_gpus)
        
-        # Move PRN from the current GPU to the target GPU
         self.disallocate(current_gpu, prn)
         self.allocate(target_gpu, prn)
         
-        # Check feasibility and return if the move is valid
+        # Verifica a factibilidade e retorna se a movimentação é válida
         if self.check_feasibility():
             return True
         else:
-            # If moving the PRN violates feasibility, undo the move
+            # Se mover o PRN violar a factibilidade, desfazer a movimentação
             self.disallocate(target_gpu, prn)
             self.allocate(current_gpu, prn)
             return False

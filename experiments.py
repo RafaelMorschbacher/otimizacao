@@ -6,10 +6,10 @@ def run_experiment(instace_file_path, output_file_path ,max_iterations, perturba
     start_time = time.time()
     instance = Instance(instace_file_path)
     output_file = open(output_file_path, "w")
-    # Create initial solution
+    # Cria solução inicial
     solution = Solution(instance, output_file)
     solution.create_initial_solution()
-    #Find best solution with ILS
+    # Encontra a melhor solução com ILS
     best_solution = solution.ils(perturbation_size, max_iterations)
 
     log_and_print("=====================================================================", output_file)
