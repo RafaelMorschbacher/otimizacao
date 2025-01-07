@@ -1,0 +1,2688 @@
+=====================================================================
+                        ITERATED LOCAL SEARCH
+=====================================================================
+Iteration 0 - Best Objective: 462
+No improvement for 100 iterations. Stopping local search.
+Iteration 1 - Best Objective: 462
+Moving to neighbor with objective function = 463
+Moving to neighbor with objective function = 462
+Moving to neighbor with objective function = 461
+Iteration 2 - Best Objective: 461
+Moving to neighbor with objective function = 459
+Moving to neighbor with objective function = 458
+Moving to neighbor with objective function = 457
+Moving to neighbor with objective function = 456
+Iteration 3 - Best Objective: 456
+Moving to neighbor with objective function = 457
+Moving to neighbor with objective function = 456
+Moving to neighbor with objective function = 455
+Moving to neighbor with objective function = 454
+Moving to neighbor with objective function = 453
+Iteration 4 - Best Objective: 453
+Moving to neighbor with objective function = 452
+Moving to neighbor with objective function = 451
+Iteration 5 - Best Objective: 451
+Moving to neighbor with objective function = 453
+Moving to neighbor with objective function = 452
+Moving to neighbor with objective function = 451
+Iteration 6 - Best Objective: 451
+Moving to neighbor with objective function = 451
+Moving to neighbor with objective function = 450
+Moving to neighbor with objective function = 449
+Moving to neighbor with objective function = 448
+Moving to neighbor with objective function = 447
+Iteration 7 - Best Objective: 447
+Moving to neighbor with objective function = 447
+Moving to neighbor with objective function = 446
+Moving to neighbor with objective function = 445
+Moving to neighbor with objective function = 444
+Moving to neighbor with objective function = 443
+Moving to neighbor with objective function = 442
+Moving to neighbor with objective function = 441
+Iteration 8 - Best Objective: 441
+Moving to neighbor with objective function = 442
+Moving to neighbor with objective function = 441
+Moving to neighbor with objective function = 440
+Moving to neighbor with objective function = 439
+Moving to neighbor with objective function = 438
+Iteration 9 - Best Objective: 438
+Moving to neighbor with objective function = 437
+Moving to neighbor with objective function = 436
+Moving to neighbor with objective function = 435
+Moving to neighbor with objective function = 434
+Moving to neighbor with objective function = 433
+Iteration 10 - Best Objective: 433
+Moving to neighbor with objective function = 434
+Moving to neighbor with objective function = 433
+Moving to neighbor with objective function = 432
+Moving to neighbor with objective function = 431
+Moving to neighbor with objective function = 430
+Moving to neighbor with objective function = 429
+Iteration 11 - Best Objective: 429
+Moving to neighbor with objective function = 428
+Iteration 12 - Best Objective: 428
+Moving to neighbor with objective function = 429
+Moving to neighbor with objective function = 428
+Moving to neighbor with objective function = 427
+Moving to neighbor with objective function = 426
+Moving to neighbor with objective function = 425
+Moving to neighbor with objective function = 424
+Moving to neighbor with objective function = 423
+Moving to neighbor with objective function = 422
+Moving to neighbor with objective function = 421
+Moving to neighbor with objective function = 420
+Iteration 13 - Best Objective: 420
+Moving to neighbor with objective function = 420
+Moving to neighbor with objective function = 419
+Moving to neighbor with objective function = 418
+Moving to neighbor with objective function = 417
+Moving to neighbor with objective function = 416
+Iteration 14 - Best Objective: 416
+Moving to neighbor with objective function = 417
+Moving to neighbor with objective function = 416
+Moving to neighbor with objective function = 415
+Moving to neighbor with objective function = 414
+Moving to neighbor with objective function = 413
+Iteration 15 - Best Objective: 413
+Moving to neighbor with objective function = 414
+Moving to neighbor with objective function = 413
+Moving to neighbor with objective function = 412
+Moving to neighbor with objective function = 411
+Iteration 16 - Best Objective: 411
+Moving to neighbor with objective function = 412
+Moving to neighbor with objective function = 411
+Moving to neighbor with objective function = 410
+Moving to neighbor with objective function = 409
+Moving to neighbor with objective function = 408
+Moving to neighbor with objective function = 407
+Moving to neighbor with objective function = 406
+Moving to neighbor with objective function = 405
+Iteration 17 - Best Objective: 405
+Moving to neighbor with objective function = 406
+Moving to neighbor with objective function = 405
+Moving to neighbor with objective function = 404
+Moving to neighbor with objective function = 403
+Moving to neighbor with objective function = 402
+Moving to neighbor with objective function = 401
+Moving to neighbor with objective function = 400
+Moving to neighbor with objective function = 399
+Iteration 18 - Best Objective: 399
+Moving to neighbor with objective function = 399
+Moving to neighbor with objective function = 398
+Moving to neighbor with objective function = 397
+Moving to neighbor with objective function = 396
+Iteration 19 - Best Objective: 396
+Moving to neighbor with objective function = 397
+Moving to neighbor with objective function = 396
+Moving to neighbor with objective function = 395
+Iteration 20 - Best Objective: 395
+Moving to neighbor with objective function = 395
+Moving to neighbor with objective function = 394
+Moving to neighbor with objective function = 393
+Moving to neighbor with objective function = 392
+Moving to neighbor with objective function = 391
+Moving to neighbor with objective function = 390
+Iteration 21 - Best Objective: 390
+Moving to neighbor with objective function = 390
+Moving to neighbor with objective function = 389
+Moving to neighbor with objective function = 388
+Moving to neighbor with objective function = 387
+Moving to neighbor with objective function = 386
+Iteration 22 - Best Objective: 386
+Moving to neighbor with objective function = 388
+Moving to neighbor with objective function = 387
+Moving to neighbor with objective function = 386
+Moving to neighbor with objective function = 385
+Moving to neighbor with objective function = 384
+Moving to neighbor with objective function = 383
+Moving to neighbor with objective function = 382
+Iteration 23 - Best Objective: 382
+Moving to neighbor with objective function = 383
+Moving to neighbor with objective function = 382
+Moving to neighbor with objective function = 381
+Moving to neighbor with objective function = 380
+Moving to neighbor with objective function = 379
+Iteration 24 - Best Objective: 379
+Moving to neighbor with objective function = 379
+Moving to neighbor with objective function = 378
+Moving to neighbor with objective function = 377
+Moving to neighbor with objective function = 376
+Moving to neighbor with objective function = 375
+Iteration 25 - Best Objective: 375
+Moving to neighbor with objective function = 376
+Moving to neighbor with objective function = 375
+Moving to neighbor with objective function = 374
+Moving to neighbor with objective function = 373
+Moving to neighbor with objective function = 372
+Moving to neighbor with objective function = 371
+Moving to neighbor with objective function = 370
+Iteration 26 - Best Objective: 370
+Moving to neighbor with objective function = 371
+Moving to neighbor with objective function = 370
+Iteration 27 - Best Objective: 370
+Moving to neighbor with objective function = 370
+Moving to neighbor with objective function = 369
+Moving to neighbor with objective function = 368
+Moving to neighbor with objective function = 367
+Iteration 28 - Best Objective: 367
+Moving to neighbor with objective function = 368
+Moving to neighbor with objective function = 367
+Moving to neighbor with objective function = 366
+Moving to neighbor with objective function = 365
+Moving to neighbor with objective function = 364
+Iteration 29 - Best Objective: 364
+Moving to neighbor with objective function = 365
+Moving to neighbor with objective function = 364
+Iteration 30 - Best Objective: 364
+Moving to neighbor with objective function = 365
+Moving to neighbor with objective function = 364
+Iteration 31 - Best Objective: 364
+Moving to neighbor with objective function = 365
+Moving to neighbor with objective function = 364
+Moving to neighbor with objective function = 363
+Moving to neighbor with objective function = 362
+Iteration 32 - Best Objective: 362
+Moving to neighbor with objective function = 361
+Moving to neighbor with objective function = 360
+Moving to neighbor with objective function = 359
+Moving to neighbor with objective function = 358
+Moving to neighbor with objective function = 357
+Iteration 33 - Best Objective: 357
+Moving to neighbor with objective function = 358
+Moving to neighbor with objective function = 357
+Moving to neighbor with objective function = 356
+Moving to neighbor with objective function = 355
+Moving to neighbor with objective function = 354
+Iteration 34 - Best Objective: 354
+Moving to neighbor with objective function = 355
+Moving to neighbor with objective function = 354
+Moving to neighbor with objective function = 353
+Moving to neighbor with objective function = 352
+Moving to neighbor with objective function = 351
+Moving to neighbor with objective function = 350
+Moving to neighbor with objective function = 349
+Moving to neighbor with objective function = 348
+Iteration 35 - Best Objective: 348
+Moving to neighbor with objective function = 348
+Moving to neighbor with objective function = 347
+Moving to neighbor with objective function = 346
+Moving to neighbor with objective function = 345
+Moving to neighbor with objective function = 344
+Iteration 36 - Best Objective: 344
+Moving to neighbor with objective function = 346
+Moving to neighbor with objective function = 345
+Moving to neighbor with objective function = 344
+Moving to neighbor with objective function = 343
+Iteration 37 - Best Objective: 343
+Moving to neighbor with objective function = 345
+Moving to neighbor with objective function = 344
+Moving to neighbor with objective function = 343
+Moving to neighbor with objective function = 342
+Moving to neighbor with objective function = 341
+Iteration 38 - Best Objective: 341
+Moving to neighbor with objective function = 343
+Moving to neighbor with objective function = 342
+Moving to neighbor with objective function = 341
+Moving to neighbor with objective function = 340
+Moving to neighbor with objective function = 339
+Iteration 39 - Best Objective: 339
+Moving to neighbor with objective function = 338
+Moving to neighbor with objective function = 337
+Moving to neighbor with objective function = 336
+Moving to neighbor with objective function = 335
+Moving to neighbor with objective function = 334
+Iteration 40 - Best Objective: 334
+Moving to neighbor with objective function = 335
+Moving to neighbor with objective function = 334
+Iteration 41 - Best Objective: 334
+Moving to neighbor with objective function = 335
+Iteration 42 - Best Objective: 334
+Moving to neighbor with objective function = 336
+Iteration 43 - Best Objective: 334
+Moving to neighbor with objective function = 336
+Moving to neighbor with objective function = 335
+Moving to neighbor with objective function = 334
+Iteration 44 - Best Objective: 334
+Moving to neighbor with objective function = 335
+Iteration 45 - Best Objective: 334
+Moving to neighbor with objective function = 335
+Moving to neighbor with objective function = 334
+Moving to neighbor with objective function = 333
+Moving to neighbor with objective function = 332
+Moving to neighbor with objective function = 331
+Moving to neighbor with objective function = 330
+Moving to neighbor with objective function = 329
+Iteration 46 - Best Objective: 329
+Moving to neighbor with objective function = 331
+Moving to neighbor with objective function = 330
+Moving to neighbor with objective function = 329
+Iteration 47 - Best Objective: 329
+Moving to neighbor with objective function = 329
+Moving to neighbor with objective function = 328
+Moving to neighbor with objective function = 327
+Moving to neighbor with objective function = 326
+Iteration 48 - Best Objective: 326
+Moving to neighbor with objective function = 326
+Moving to neighbor with objective function = 325
+Moving to neighbor with objective function = 324
+Iteration 49 - Best Objective: 324
+Moving to neighbor with objective function = 324
+Moving to neighbor with objective function = 323
+Moving to neighbor with objective function = 322
+Iteration 50 - Best Objective: 322
+Moving to neighbor with objective function = 323
+Moving to neighbor with objective function = 322
+Moving to neighbor with objective function = 321
+Moving to neighbor with objective function = 320
+Iteration 51 - Best Objective: 320
+Moving to neighbor with objective function = 322
+Moving to neighbor with objective function = 321
+Iteration 52 - Best Objective: 320
+Moving to neighbor with objective function = 322
+Iteration 53 - Best Objective: 320
+Moving to neighbor with objective function = 321
+Moving to neighbor with objective function = 320
+Moving to neighbor with objective function = 319
+Iteration 54 - Best Objective: 319
+Moving to neighbor with objective function = 320
+Moving to neighbor with objective function = 319
+Iteration 55 - Best Objective: 319
+Moving to neighbor with objective function = 320
+Moving to neighbor with objective function = 319
+Moving to neighbor with objective function = 318
+Iteration 56 - Best Objective: 318
+Moving to neighbor with objective function = 319
+Moving to neighbor with objective function = 318
+Moving to neighbor with objective function = 317
+Moving to neighbor with objective function = 316
+Moving to neighbor with objective function = 315
+Iteration 57 - Best Objective: 315
+Moving to neighbor with objective function = 315
+Moving to neighbor with objective function = 314
+Moving to neighbor with objective function = 313
+Iteration 58 - Best Objective: 313
+Moving to neighbor with objective function = 313
+Iteration 59 - Best Objective: 313
+Moving to neighbor with objective function = 313
+Iteration 60 - Best Objective: 313
+Moving to neighbor with objective function = 315
+Moving to neighbor with objective function = 314
+Moving to neighbor with objective function = 313
+Moving to neighbor with objective function = 312
+Moving to neighbor with objective function = 311
+Iteration 61 - Best Objective: 311
+Moving to neighbor with objective function = 313
+Moving to neighbor with objective function = 312
+Iteration 62 - Best Objective: 311
+Moving to neighbor with objective function = 312
+Iteration 63 - Best Objective: 311
+Moving to neighbor with objective function = 312
+Moving to neighbor with objective function = 311
+Moving to neighbor with objective function = 310
+Iteration 64 - Best Objective: 310
+Moving to neighbor with objective function = 311
+Moving to neighbor with objective function = 310
+Moving to neighbor with objective function = 309
+Iteration 65 - Best Objective: 309
+Moving to neighbor with objective function = 311
+Iteration 66 - Best Objective: 309
+Moving to neighbor with objective function = 310
+Moving to neighbor with objective function = 309
+Moving to neighbor with objective function = 308
+Iteration 67 - Best Objective: 308
+Moving to neighbor with objective function = 310
+Moving to neighbor with objective function = 309
+Iteration 68 - Best Objective: 308
+Moving to neighbor with objective function = 309
+Iteration 69 - Best Objective: 308
+Moving to neighbor with objective function = 309
+Moving to neighbor with objective function = 308
+Iteration 70 - Best Objective: 308
+No improvement for 100 iterations. Stopping local search.
+Iteration 71 - Best Objective: 308
+Moving to neighbor with objective function = 309
+Moving to neighbor with objective function = 308
+Moving to neighbor with objective function = 307
+Iteration 72 - Best Objective: 307
+Moving to neighbor with objective function = 308
+Iteration 73 - Best Objective: 307
+Moving to neighbor with objective function = 307
+Moving to neighbor with objective function = 306
+Moving to neighbor with objective function = 305
+Iteration 74 - Best Objective: 305
+Moving to neighbor with objective function = 306
+Iteration 75 - Best Objective: 305
+Moving to neighbor with objective function = 306
+Moving to neighbor with objective function = 305
+Iteration 76 - Best Objective: 305
+Moving to neighbor with objective function = 306
+Moving to neighbor with objective function = 305
+Iteration 77 - Best Objective: 305
+No improvement for 100 iterations. Stopping local search.
+Iteration 78 - Best Objective: 305
+No improvement for 100 iterations. Stopping local search.
+Iteration 79 - Best Objective: 305
+No improvement for 100 iterations. Stopping local search.
+Iteration 80 - Best Objective: 305
+Moving to neighbor with objective function = 306
+Iteration 81 - Best Objective: 305
+No improvement for 100 iterations. Stopping local search.
+Iteration 82 - Best Objective: 305
+Moving to neighbor with objective function = 305
+Moving to neighbor with objective function = 304
+Moving to neighbor with objective function = 303
+Iteration 83 - Best Objective: 303
+No improvement for 100 iterations. Stopping local search.
+Iteration 84 - Best Objective: 303
+Moving to neighbor with objective function = 305
+Iteration 85 - Best Objective: 303
+No improvement for 100 iterations. Stopping local search.
+Iteration 86 - Best Objective: 303
+No improvement for 100 iterations. Stopping local search.
+Iteration 87 - Best Objective: 303
+Moving to neighbor with objective function = 303
+Moving to neighbor with objective function = 302
+Iteration 88 - Best Objective: 302
+Moving to neighbor with objective function = 304
+Iteration 89 - Best Objective: 302
+Moving to neighbor with objective function = 304
+Iteration 90 - Best Objective: 302
+Moving to neighbor with objective function = 304
+Iteration 91 - Best Objective: 302
+Moving to neighbor with objective function = 302
+Iteration 92 - Best Objective: 302
+Moving to neighbor with objective function = 304
+Iteration 93 - Best Objective: 302
+Moving to neighbor with objective function = 303
+Moving to neighbor with objective function = 302
+Iteration 94 - Best Objective: 302
+Moving to neighbor with objective function = 303
+Iteration 95 - Best Objective: 302
+No improvement for 100 iterations. Stopping local search.
+Iteration 96 - Best Objective: 302
+Moving to neighbor with objective function = 303
+Moving to neighbor with objective function = 302
+Moving to neighbor with objective function = 301
+Moving to neighbor with objective function = 300
+Moving to neighbor with objective function = 299
+Iteration 97 - Best Objective: 299
+Moving to neighbor with objective function = 300
+Iteration 98 - Best Objective: 299
+Moving to neighbor with objective function = 300
+Iteration 99 - Best Objective: 299
+No improvement for 100 iterations. Stopping local search.
+Iteration 100 - Best Objective: 299
+No improvement for 100 iterations. Stopping local search.
+Iteration 101 - Best Objective: 299
+Moving to neighbor with objective function = 301
+Iteration 102 - Best Objective: 299
+Moving to neighbor with objective function = 300
+Moving to neighbor with objective function = 299
+Iteration 103 - Best Objective: 299
+Moving to neighbor with objective function = 301
+Iteration 104 - Best Objective: 299
+Moving to neighbor with objective function = 300
+Iteration 105 - Best Objective: 299
+Moving to neighbor with objective function = 300
+Iteration 106 - Best Objective: 299
+Moving to neighbor with objective function = 301
+Moving to neighbor with objective function = 300
+Iteration 107 - Best Objective: 299
+Moving to neighbor with objective function = 300
+Iteration 108 - Best Objective: 299
+Moving to neighbor with objective function = 300
+Moving to neighbor with objective function = 299
+Moving to neighbor with objective function = 298
+Iteration 109 - Best Objective: 298
+No improvement for 100 iterations. Stopping local search.
+Iteration 110 - Best Objective: 298
+Moving to neighbor with objective function = 300
+Iteration 111 - Best Objective: 298
+Moving to neighbor with objective function = 299
+Iteration 112 - Best Objective: 298
+Moving to neighbor with objective function = 299
+Moving to neighbor with objective function = 298
+Iteration 113 - Best Objective: 298
+Moving to neighbor with objective function = 299
+Moving to neighbor with objective function = 298
+Moving to neighbor with objective function = 297
+Moving to neighbor with objective function = 296
+Iteration 114 - Best Objective: 296
+Moving to neighbor with objective function = 297
+Moving to neighbor with objective function = 296
+Moving to neighbor with objective function = 295
+Iteration 115 - Best Objective: 295
+No improvement for 100 iterations. Stopping local search.
+Iteration 116 - Best Objective: 295
+Moving to neighbor with objective function = 297
+Iteration 117 - Best Objective: 295
+Moving to neighbor with objective function = 295
+Moving to neighbor with objective function = 294
+Moving to neighbor with objective function = 293
+Iteration 118 - Best Objective: 293
+No improvement for 100 iterations. Stopping local search.
+Iteration 119 - Best Objective: 293
+Moving to neighbor with objective function = 294
+Iteration 120 - Best Objective: 293
+Moving to neighbor with objective function = 294
+Moving to neighbor with objective function = 293
+Moving to neighbor with objective function = 292
+Iteration 121 - Best Objective: 292
+Moving to neighbor with objective function = 293
+Moving to neighbor with objective function = 292
+Iteration 122 - Best Objective: 292
+Moving to neighbor with objective function = 293
+Iteration 123 - Best Objective: 292
+No improvement for 100 iterations. Stopping local search.
+Iteration 124 - Best Objective: 292
+Moving to neighbor with objective function = 293
+Iteration 125 - Best Objective: 292
+Moving to neighbor with objective function = 293
+Iteration 126 - Best Objective: 292
+Moving to neighbor with objective function = 293
+Iteration 127 - Best Objective: 292
+Moving to neighbor with objective function = 292
+Iteration 128 - Best Objective: 292
+Moving to neighbor with objective function = 293
+Moving to neighbor with objective function = 292
+Moving to neighbor with objective function = 291
+Moving to neighbor with objective function = 290
+Iteration 129 - Best Objective: 290
+Moving to neighbor with objective function = 290
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Iteration 130 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 131 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Iteration 132 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 133 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 134 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 135 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 136 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 137 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 138 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 139 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Iteration 140 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 141 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 142 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 143 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 144 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Iteration 145 - Best Objective: 288
+Moving to neighbor with objective function = 288
+Iteration 146 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Iteration 147 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Iteration 148 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 149 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 150 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Iteration 151 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 152 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 153 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 154 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 155 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 156 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Iteration 157 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Iteration 158 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Iteration 159 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Iteration 160 - Best Objective: 288
+Moving to neighbor with objective function = 288
+Iteration 161 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Iteration 162 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 163 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 164 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 165 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 166 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 167 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 168 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 169 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 170 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 171 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Iteration 172 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 173 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Moving to neighbor with objective function = 289
+Iteration 174 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Iteration 175 - Best Objective: 288
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Iteration 176 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 177 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+Iteration 178 - Best Objective: 288
+Moving to neighbor with objective function = 290
+Iteration 179 - Best Objective: 288
+No improvement for 100 iterations. Stopping local search.
+No improvement for multiple iterations. Stopping ILS after 180 iterations.
+=====================================================================
+                        EXPERIMENT RESULTS                         
+=====================================================================
+Initial solution objective function: 462
+Best solution objective function: 288
+Number of iterations: 1000
+Perturbation size: 3
+--- 1452.431 seconds ---
+=====================================================================
+                        CURRENT SOLUTION
+=====================================================================
+=================================
+GPU 0
+allocated memory: 138
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 0, size: 26, type: 2
+PRN 1, size: 29, type: 2
+PRN 4, size: 41, type: 2
+PRN 366, size: 42, type: 2
+=================================
+GPU 1
+allocated memory: 97
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 2, size: 97, type: 1
+=================================
+GPU 2
+allocated memory: 145
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 6, size: 98, type: 0
+PRN 576, size: 47, type: 0
+=================================
+GPU 3
+allocated memory: 102
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 9, size: 81, type: 1
+PRN 537, size: 21, type: 1
+=================================
+GPU 4
+allocated memory: 136
+2 allocated types: {1, 2}
+Allocated PRNs: 
+PRN 10, size: 47, type: 1
+PRN 11, size: 62, type: 2
+PRN 18, size: 27, type: 1
+=================================
+GPU 5
+allocated memory: 135
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 12, size: 56, type: 0
+PRN 13, size: 79, type: 0
+=================================
+GPU 6
+allocated memory: 125
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 14, size: 61, type: 0
+PRN 15, size: 64, type: 0
+=================================
+GPU 7
+allocated memory: 139
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 16, size: 78, type: 2
+PRN 266, size: 61, type: 2
+=================================
+GPU 8
+allocated memory: 134
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 445, size: 64, type: 0
+PRN 568, size: 70, type: 0
+=================================
+GPU 9
+allocated memory: 142
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 23, size: 89, type: 1
+PRN 283, size: 21, type: 1
+PRN 519, size: 32, type: 1
+=================================
+GPU 10
+allocated memory: 86
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 27, size: 86, type: 1
+=================================
+GPU 11
+allocated memory: 136
+2 allocated types: {0, 1}
+Allocated PRNs: 
+PRN 30, size: 21, type: 1
+PRN 32, size: 20, type: 1
+PRN 404, size: 95, type: 0
+=================================
+GPU 12
+allocated memory: 135
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 29, size: 69, type: 0
+PRN 31, size: 66, type: 0
+=================================
+GPU 13
+allocated memory: 148
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 28, size: 42, type: 2
+PRN 340, size: 51, type: 2
+PRN 444, size: 55, type: 2
+=================================
+GPU 14
+allocated memory: 120
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 267, size: 72, type: 0
+PRN 491, size: 48, type: 0
+=================================
+GPU 15
+allocated memory: 149
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 37, size: 77, type: 0
+PRN 222, size: 72, type: 0
+=================================
+GPU 16
+allocated memory: 140
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 38, size: 94, type: 0
+PRN 541, size: 46, type: 0
+=================================
+GPU 17
+allocated memory: 118
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 433, size: 70, type: 1
+PRN 525, size: 48, type: 1
+=================================
+GPU 18
+allocated memory: 142
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 43, size: 100, type: 0
+PRN 237, size: 42, type: 0
+=================================
+GPU 19
+allocated memory: 122
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 44, size: 96, type: 1
+PRN 47, size: 26, type: 1
+=================================
+GPU 20
+allocated memory: 121
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 46, size: 31, type: 1
+PRN 62, size: 35, type: 1
+PRN 586, size: 55, type: 1
+=================================
+GPU 21
+allocated memory: 146
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 109, size: 76, type: 0
+PRN 569, size: 70, type: 0
+=================================
+GPU 22
+allocated memory: 121
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 50, size: 98, type: 2
+PRN 468, size: 23, type: 2
+=================================
+GPU 23
+allocated memory: 149
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 53, size: 92, type: 0
+PRN 54, size: 57, type: 0
+=================================
+GPU 24
+allocated memory: 121
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 55, size: 79, type: 2
+PRN 516, size: 42, type: 2
+=================================
+GPU 25
+allocated memory: 133
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 56, size: 76, type: 1
+PRN 275, size: 57, type: 1
+=================================
+GPU 26
+allocated memory: 125
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 57, size: 98, type: 1
+PRN 67, size: 27, type: 1
+=================================
+GPU 27
+allocated memory: 148
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 280, size: 59, type: 2
+PRN 347, size: 89, type: 2
+=================================
+GPU 28
+allocated memory: 149
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 60, size: 97, type: 1
+PRN 69, size: 31, type: 1
+PRN 127, size: 21, type: 1
+=================================
+GPU 29
+allocated memory: 134
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 65, size: 81, type: 2
+PRN 105, size: 31, type: 2
+PRN 258, size: 22, type: 2
+=================================
+GPU 30
+allocated memory: 116
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 74, size: 40, type: 2
+PRN 177, size: 20, type: 2
+PRN 215, size: 22, type: 2
+PRN 584, size: 34, type: 2
+=================================
+GPU 31
+allocated memory: 145
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 70, size: 90, type: 2
+PRN 132, size: 34, type: 2
+PRN 179, size: 21, type: 2
+=================================
+GPU 32
+allocated memory: 116
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 129, size: 22, type: 2
+PRN 452, size: 29, type: 2
+PRN 563, size: 65, type: 2
+=================================
+GPU 33
+allocated memory: 146
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 75, size: 97, type: 0
+PRN 354, size: 49, type: 0
+=================================
+GPU 34
+allocated memory: 144
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 79, size: 68, type: 2
+PRN 100, size: 24, type: 2
+PRN 310, size: 29, type: 2
+PRN 411, size: 23, type: 2
+=================================
+GPU 35
+allocated memory: 89
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 201, size: 89, type: 2
+=================================
+GPU 36
+allocated memory: 141
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 85, size: 73, type: 1
+PRN 117, size: 27, type: 1
+PRN 462, size: 41, type: 1
+=================================
+GPU 37
+allocated memory: 147
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 86, size: 83, type: 0
+PRN 134, size: 25, type: 0
+PRN 498, size: 39, type: 0
+=================================
+GPU 38
+allocated memory: 150
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 87, size: 87, type: 2
+PRN 92, size: 34, type: 2
+PRN 99, size: 29, type: 2
+=================================
+GPU 39
+allocated memory: 137
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 88, size: 90, type: 2
+PRN 93, size: 47, type: 2
+=================================
+GPU 40
+allocated memory: 88
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 90, size: 88, type: 0
+=================================
+GPU 41
+allocated memory: 119
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 96, size: 42, type: 2
+PRN 209, size: 77, type: 2
+=================================
+GPU 42
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 43
+allocated memory: 150
+2 allocated types: {0, 2}
+Allocated PRNs: 
+PRN 98, size: 49, type: 0
+PRN 101, size: 38, type: 0
+PRN 103, size: 37, type: 2
+PRN 188, size: 26, type: 2
+=================================
+GPU 44
+allocated memory: 142
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 102, size: 64, type: 0
+PRN 110, size: 42, type: 0
+PRN 313, size: 36, type: 0
+=================================
+GPU 45
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 46
+allocated memory: 139
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 106, size: 77, type: 2
+PRN 113, size: 62, type: 2
+=================================
+GPU 47
+allocated memory: 132
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 107, size: 85, type: 0
+PRN 149, size: 47, type: 0
+=================================
+GPU 48
+allocated memory: 105
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 108, size: 76, type: 1
+PRN 291, size: 29, type: 1
+=================================
+GPU 49
+allocated memory: 131
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 181, size: 97, type: 2
+PRN 451, size: 34, type: 2
+=================================
+GPU 50
+allocated memory: 135
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 111, size: 90, type: 1
+PRN 355, size: 45, type: 1
+=================================
+GPU 51
+allocated memory: 148
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 114, size: 84, type: 1
+PRN 357, size: 40, type: 1
+PRN 587, size: 24, type: 1
+=================================
+GPU 52
+allocated memory: 121
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 326, size: 79, type: 1
+PRN 427, size: 42, type: 1
+=================================
+GPU 53
+allocated memory: 147
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 119, size: 99, type: 0
+PRN 135, size: 48, type: 0
+=================================
+GPU 54
+allocated memory: 138
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 120, size: 83, type: 0
+PRN 193, size: 55, type: 0
+=================================
+GPU 55
+allocated memory: 123
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 336, size: 23, type: 1
+PRN 492, size: 100, type: 1
+=================================
+GPU 56
+allocated memory: 125
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 352, size: 57, type: 0
+PRN 406, size: 68, type: 0
+=================================
+GPU 57
+allocated memory: 145
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 125, size: 79, type: 0
+PRN 450, size: 66, type: 0
+=================================
+GPU 58
+allocated memory: 139
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 126, size: 82, type: 1
+PRN 229, size: 57, type: 1
+=================================
+GPU 59
+allocated memory: 123
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 151, size: 38, type: 1
+PRN 241, size: 85, type: 1
+=================================
+GPU 60
+allocated memory: 114
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 137, size: 78, type: 1
+PRN 392, size: 36, type: 1
+=================================
+GPU 61
+allocated memory: 147
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 141, size: 75, type: 2
+PRN 143, size: 45, type: 2
+PRN 482, size: 27, type: 2
+=================================
+GPU 62
+allocated memory: 129
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 144, size: 72, type: 0
+PRN 145, size: 57, type: 0
+=================================
+GPU 63
+allocated memory: 137
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 147, size: 69, type: 2
+PRN 443, size: 68, type: 2
+=================================
+GPU 64
+allocated memory: 96
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 131, size: 59, type: 0
+PRN 227, size: 37, type: 0
+=================================
+GPU 65
+allocated memory: 111
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 150, size: 91, type: 2
+PRN 300, size: 20, type: 2
+=================================
+GPU 66
+allocated memory: 103
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 156, size: 33, type: 2
+PRN 402, size: 37, type: 2
+PRN 590, size: 33, type: 2
+=================================
+GPU 67
+allocated memory: 121
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 82, size: 44, type: 2
+PRN 279, size: 77, type: 2
+=================================
+GPU 68
+allocated memory: 93
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 158, size: 93, type: 0
+=================================
+GPU 69
+allocated memory: 82
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 309, size: 82, type: 0
+=================================
+GPU 70
+allocated memory: 149
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 178, size: 37, type: 2
+PRN 553, size: 48, type: 2
+PRN 572, size: 64, type: 2
+=================================
+GPU 71
+allocated memory: 142
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 163, size: 63, type: 1
+PRN 167, size: 79, type: 1
+=================================
+GPU 72
+allocated memory: 148
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 164, size: 95, type: 2
+PRN 182, size: 53, type: 2
+=================================
+GPU 73
+allocated memory: 141
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 71, size: 30, type: 0
+PRN 165, size: 91, type: 0
+PRN 383, size: 20, type: 0
+=================================
+GPU 74
+allocated memory: 117
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 166, size: 97, type: 1
+PRN 363, size: 20, type: 1
+=================================
+GPU 75
+allocated memory: 144
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 464, size: 55, type: 2
+PRN 560, size: 89, type: 2
+=================================
+GPU 76
+allocated memory: 133
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 45, size: 52, type: 0
+PRN 175, size: 58, type: 0
+PRN 257, size: 23, type: 0
+=================================
+GPU 77
+allocated memory: 141
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 154, size: 87, type: 0
+PRN 190, size: 34, type: 0
+PRN 557, size: 20, type: 0
+=================================
+GPU 78
+allocated memory: 143
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 34, size: 56, type: 1
+PRN 172, size: 87, type: 1
+=================================
+GPU 79
+allocated memory: 143
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 173, size: 79, type: 2
+PRN 185, size: 64, type: 2
+=================================
+GPU 80
+allocated memory: 111
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 176, size: 80, type: 2
+PRN 195, size: 31, type: 2
+=================================
+GPU 81
+allocated memory: 120
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 128, size: 56, type: 0
+PRN 196, size: 64, type: 0
+=================================
+GPU 82
+allocated memory: 120
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 202, size: 47, type: 0
+PRN 276, size: 73, type: 0
+=================================
+GPU 83
+allocated memory: 142
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 184, size: 79, type: 2
+PRN 207, size: 63, type: 2
+=================================
+GPU 84
+allocated memory: 144
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 204, size: 56, type: 0
+PRN 453, size: 88, type: 0
+=================================
+GPU 85
+allocated memory: 142
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 187, size: 79, type: 0
+PRN 375, size: 63, type: 0
+=================================
+GPU 86
+allocated memory: 75
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 189, size: 75, type: 2
+=================================
+GPU 87
+allocated memory: 134
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 168, size: 57, type: 2
+PRN 191, size: 77, type: 2
+=================================
+GPU 88
+allocated memory: 84
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 192, size: 84, type: 1
+=================================
+GPU 89
+allocated memory: 135
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 48, size: 97, type: 2
+PRN 211, size: 38, type: 2
+=================================
+GPU 90
+allocated memory: 102
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 277, size: 28, type: 2
+PRN 438, size: 74, type: 2
+=================================
+GPU 91
+allocated memory: 97
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 208, size: 97, type: 1
+=================================
+GPU 92
+allocated memory: 130
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 39, size: 68, type: 1
+PRN 213, size: 62, type: 1
+=================================
+GPU 93
+allocated memory: 89
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 240, size: 89, type: 0
+=================================
+GPU 94
+allocated memory: 149
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 138, size: 55, type: 1
+PRN 214, size: 65, type: 1
+PRN 442, size: 29, type: 1
+=================================
+GPU 95
+allocated memory: 96
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 217, size: 96, type: 1
+=================================
+GPU 96
+allocated memory: 125
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 221, size: 95, type: 2
+PRN 441, size: 30, type: 2
+=================================
+GPU 97
+allocated memory: 137
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 157, size: 57, type: 2
+PRN 242, size: 55, type: 2
+PRN 265, size: 25, type: 2
+=================================
+GPU 98
+allocated memory: 123
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 224, size: 87, type: 0
+PRN 226, size: 36, type: 0
+=================================
+GPU 99
+allocated memory: 92
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 7, size: 39, type: 2
+PRN 228, size: 53, type: 2
+=================================
+GPU 100
+allocated memory: 96
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 230, size: 57, type: 0
+PRN 439, size: 39, type: 0
+=================================
+GPU 101
+allocated memory: 126
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 234, size: 47, type: 1
+PRN 244, size: 31, type: 1
+PRN 337, size: 48, type: 1
+=================================
+GPU 102
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 103
+allocated memory: 138
+2 allocated types: {0, 1}
+Allocated PRNs: 
+PRN 180, size: 85, type: 1
+PRN 238, size: 30, type: 0
+PRN 270, size: 23, type: 0
+=================================
+GPU 104
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 105
+allocated memory: 147
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 296, size: 24, type: 2
+PRN 324, size: 24, type: 2
+PRN 551, size: 99, type: 2
+=================================
+GPU 106
+allocated memory: 131
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 26, size: 100, type: 0
+PRN 246, size: 31, type: 0
+=================================
+GPU 107
+allocated memory: 97
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 247, size: 97, type: 0
+=================================
+GPU 108
+allocated memory: 129
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 17, size: 22, type: 1
+PRN 248, size: 74, type: 1
+PRN 256, size: 33, type: 1
+=================================
+GPU 109
+allocated memory: 125
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 251, size: 80, type: 1
+PRN 252, size: 45, type: 1
+=================================
+GPU 110
+allocated memory: 84
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 33, size: 84, type: 2
+=================================
+GPU 111
+allocated memory: 75
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 260, size: 75, type: 2
+=================================
+GPU 112
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 113
+allocated memory: 136
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 259, size: 71, type: 1
+PRN 278, size: 65, type: 1
+=================================
+GPU 114
+allocated memory: 98
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 261, size: 98, type: 1
+=================================
+GPU 115
+allocated memory: 117
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 311, size: 69, type: 0
+PRN 589, size: 48, type: 0
+=================================
+GPU 116
+allocated memory: 136
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 264, size: 90, type: 2
+PRN 526, size: 46, type: 2
+=================================
+GPU 117
+allocated memory: 82
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 115, size: 82, type: 1
+=================================
+GPU 118
+allocated memory: 138
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 142, size: 51, type: 1
+PRN 236, size: 87, type: 1
+=================================
+GPU 119
+allocated memory: 140
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 273, size: 84, type: 2
+PRN 430, size: 56, type: 2
+=================================
+GPU 120
+allocated memory: 82
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 508, size: 82, type: 1
+=================================
+GPU 121
+allocated memory: 133
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 162, size: 51, type: 1
+PRN 282, size: 82, type: 1
+=================================
+GPU 122
+allocated memory: 96
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 285, size: 96, type: 2
+=================================
+GPU 123
+allocated memory: 91
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 287, size: 91, type: 2
+=================================
+GPU 124
+allocated memory: 121
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 289, size: 61, type: 1
+PRN 290, size: 60, type: 1
+=================================
+GPU 125
+allocated memory: 146
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 271, size: 95, type: 1
+PRN 293, size: 51, type: 1
+=================================
+GPU 126
+allocated memory: 70
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 294, size: 40, type: 1
+PRN 297, size: 30, type: 1
+=================================
+GPU 127
+allocated memory: 131
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 25, size: 53, type: 2
+PRN 199, size: 21, type: 2
+PRN 301, size: 57, type: 2
+=================================
+GPU 128
+allocated memory: 118
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 159, size: 66, type: 2
+PRN 304, size: 52, type: 2
+=================================
+GPU 129
+allocated memory: 126
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 306, size: 54, type: 0
+PRN 330, size: 32, type: 0
+PRN 518, size: 40, type: 0
+=================================
+GPU 130
+allocated memory: 130
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 5, size: 37, type: 2
+PRN 307, size: 55, type: 2
+PRN 308, size: 38, type: 2
+=================================
+GPU 131
+allocated memory: 91
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 509, size: 91, type: 0
+=================================
+GPU 132
+allocated memory: 146
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 36, size: 68, type: 1
+PRN 41, size: 51, type: 1
+PRN 335, size: 27, type: 1
+=================================
+GPU 133
+allocated memory: 144
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 315, size: 93, type: 0
+PRN 321, size: 51, type: 0
+=================================
+GPU 134
+allocated memory: 99
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 316, size: 99, type: 2
+=================================
+GPU 135
+allocated memory: 137
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 118, size: 56, type: 0
+PRN 319, size: 60, type: 0
+PRN 421, size: 21, type: 0
+=================================
+GPU 136
+allocated memory: 147
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 318, size: 92, type: 1
+PRN 323, size: 55, type: 1
+=================================
+GPU 137
+allocated memory: 146
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 474, size: 71, type: 1
+PRN 517, size: 75, type: 1
+=================================
+GPU 138
+allocated memory: 134
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 322, size: 86, type: 2
+PRN 495, size: 48, type: 2
+=================================
+GPU 139
+allocated memory: 141
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 51, size: 20, type: 2
+PRN 325, size: 94, type: 2
+PRN 596, size: 27, type: 2
+=================================
+GPU 140
+allocated memory: 138
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 327, size: 79, type: 1
+PRN 423, size: 59, type: 1
+=================================
+GPU 141
+allocated memory: 102
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 342, size: 29, type: 1
+PRN 431, size: 73, type: 1
+=================================
+GPU 142
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 143
+allocated memory: 138
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 305, size: 61, type: 1
+PRN 338, size: 77, type: 1
+=================================
+GPU 144
+allocated memory: 115
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 341, size: 45, type: 1
+PRN 343, size: 70, type: 1
+=================================
+GPU 145
+allocated memory: 112
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 302, size: 23, type: 0
+PRN 345, size: 89, type: 0
+=================================
+GPU 146
+allocated memory: 127
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 346, size: 68, type: 0
+PRN 349, size: 59, type: 0
+=================================
+GPU 147
+allocated memory: 76
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 432, size: 76, type: 0
+=================================
+GPU 148
+allocated memory: 128
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 89, size: 42, type: 2
+PRN 353, size: 62, type: 2
+PRN 365, size: 24, type: 2
+=================================
+GPU 149
+allocated memory: 64
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 303, size: 64, type: 2
+=================================
+GPU 150
+allocated memory: 144
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 356, size: 69, type: 2
+PRN 359, size: 75, type: 2
+=================================
+GPU 151
+allocated memory: 136
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 358, size: 90, type: 0
+PRN 391, size: 46, type: 0
+=================================
+GPU 152
+allocated memory: 144
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 360, size: 62, type: 1
+PRN 361, size: 82, type: 1
+=================================
+GPU 153
+allocated memory: 150
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 362, size: 81, type: 2
+PRN 369, size: 43, type: 2
+PRN 386, size: 26, type: 2
+=================================
+GPU 154
+allocated memory: 126
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 3, size: 54, type: 0
+PRN 370, size: 72, type: 0
+=================================
+GPU 155
+allocated memory: 146
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 368, size: 73, type: 2
+PRN 371, size: 48, type: 2
+PRN 395, size: 25, type: 2
+=================================
+GPU 156
+allocated memory: 149
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 263, size: 63, type: 2
+PRN 372, size: 53, type: 2
+PRN 373, size: 33, type: 2
+=================================
+GPU 157
+allocated memory: 137
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 374, size: 91, type: 2
+PRN 378, size: 46, type: 2
+=================================
+GPU 158
+allocated memory: 140
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 174, size: 57, type: 2
+PRN 380, size: 53, type: 2
+PRN 418, size: 30, type: 2
+=================================
+GPU 159
+allocated memory: 125
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 377, size: 94, type: 1
+PRN 424, size: 31, type: 1
+=================================
+GPU 160
+allocated memory: 141
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 122, size: 50, type: 0
+PRN 379, size: 91, type: 0
+=================================
+GPU 161
+allocated memory: 144
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 381, size: 84, type: 2
+PRN 385, size: 60, type: 2
+=================================
+GPU 162
+allocated memory: 124
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 35, size: 72, type: 0
+PRN 84, size: 52, type: 0
+=================================
+GPU 163
+allocated memory: 149
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 225, size: 50, type: 1
+PRN 389, size: 99, type: 1
+=================================
+GPU 164
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 165
+allocated memory: 150
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 123, size: 81, type: 2
+PRN 394, size: 48, type: 2
+PRN 499, size: 21, type: 2
+=================================
+GPU 166
+allocated memory: 99
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 396, size: 99, type: 0
+=================================
+GPU 167
+allocated memory: 150
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 397, size: 88, type: 0
+PRN 409, size: 62, type: 0
+=================================
+GPU 168
+allocated memory: 65
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 398, size: 65, type: 0
+=================================
+GPU 169
+allocated memory: 147
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 401, size: 92, type: 1
+PRN 412, size: 55, type: 1
+=================================
+GPU 170
+allocated memory: 94
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 403, size: 94, type: 1
+=================================
+GPU 171
+allocated memory: 113
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 68, size: 89, type: 0
+PRN 466, size: 24, type: 0
+=================================
+GPU 172
+allocated memory: 112
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 153, size: 29, type: 1
+PRN 405, size: 83, type: 1
+=================================
+GPU 173
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 174
+allocated memory: 122
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 351, size: 22, type: 2
+PRN 407, size: 100, type: 2
+=================================
+GPU 175
+allocated memory: 121
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 332, size: 93, type: 0
+PRN 556, size: 28, type: 0
+=================================
+GPU 176
+allocated memory: 137
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 414, size: 96, type: 1
+PRN 435, size: 41, type: 1
+=================================
+GPU 177
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 178
+allocated memory: 150
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 8, size: 30, type: 0
+PRN 59, size: 55, type: 0
+PRN 434, size: 65, type: 0
+=================================
+GPU 179
+allocated memory: 123
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 417, size: 92, type: 0
+PRN 437, size: 31, type: 0
+=================================
+GPU 180
+allocated memory: 128
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 169, size: 78, type: 0
+PRN 532, size: 50, type: 0
+=================================
+GPU 181
+allocated memory: 137
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 320, size: 69, type: 0
+PRN 429, size: 68, type: 0
+=================================
+GPU 182
+allocated memory: 135
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 139, size: 57, type: 1
+PRN 425, size: 78, type: 1
+=================================
+GPU 183
+allocated memory: 137
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 104, size: 91, type: 0
+PRN 523, size: 21, type: 0
+PRN 574, size: 25, type: 0
+=================================
+GPU 184
+allocated memory: 60
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 203, size: 60, type: 0
+=================================
+GPU 185
+allocated memory: 75
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 436, size: 75, type: 2
+=================================
+GPU 186
+allocated memory: 143
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 194, size: 71, type: 0
+PRN 446, size: 43, type: 0
+PRN 595, size: 29, type: 0
+=================================
+GPU 187
+allocated memory: 99
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 231, size: 65, type: 2
+PRN 250, size: 34, type: 2
+=================================
+GPU 188
+allocated memory: 145
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 24, size: 25, type: 1
+PRN 95, size: 37, type: 1
+PRN 447, size: 60, type: 1
+PRN 536, size: 23, type: 1
+=================================
+GPU 189
+allocated memory: 98
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 448, size: 98, type: 1
+=================================
+GPU 190
+allocated memory: 131
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 449, size: 100, type: 1
+PRN 454, size: 31, type: 1
+=================================
+GPU 191
+allocated memory: 149
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 456, size: 55, type: 1
+PRN 475, size: 94, type: 1
+=================================
+GPU 192
+allocated memory: 129
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 455, size: 100, type: 2
+PRN 459, size: 29, type: 2
+=================================
+GPU 193
+allocated memory: 80
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 460, size: 80, type: 0
+=================================
+GPU 194
+allocated memory: 145
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 200, size: 71, type: 0
+PRN 399, size: 74, type: 0
+=================================
+GPU 195
+allocated memory: 110
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 314, size: 41, type: 1
+PRN 463, size: 37, type: 1
+PRN 465, size: 32, type: 1
+=================================
+GPU 196
+allocated memory: 117
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 19, size: 28, type: 1
+PRN 467, size: 57, type: 1
+PRN 469, size: 32, type: 1
+=================================
+GPU 197
+allocated memory: 139
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 470, size: 83, type: 2
+PRN 472, size: 56, type: 2
+=================================
+GPU 198
+allocated memory: 150
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 471, size: 80, type: 0
+PRN 473, size: 33, type: 0
+PRN 479, size: 37, type: 0
+=================================
+GPU 199
+allocated memory: 116
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 216, size: 44, type: 2
+PRN 476, size: 46, type: 2
+PRN 487, size: 26, type: 2
+=================================
+GPU 200
+allocated memory: 106
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 489, size: 46, type: 1
+PRN 545, size: 60, type: 1
+=================================
+GPU 201
+allocated memory: 146
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 477, size: 85, type: 0
+PRN 481, size: 61, type: 0
+=================================
+GPU 202
+allocated memory: 149
+2 allocated types: {0, 2}
+Allocated PRNs: 
+PRN 478, size: 74, type: 2
+PRN 484, size: 75, type: 0
+=================================
+GPU 203
+allocated memory: 146
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 480, size: 85, type: 2
+PRN 485, size: 61, type: 2
+=================================
+GPU 204
+allocated memory: 138
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 486, size: 61, type: 0
+PRN 490, size: 77, type: 0
+=================================
+GPU 205
+allocated memory: 96
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 488, size: 96, type: 1
+=================================
+GPU 206
+allocated memory: 130
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 20, size: 96, type: 2
+PRN 344, size: 34, type: 2
+=================================
+GPU 207
+allocated memory: 115
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 77, size: 61, type: 2
+PRN 497, size: 54, type: 2
+=================================
+GPU 208
+allocated memory: 104
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 350, size: 39, type: 0
+PRN 494, size: 65, type: 0
+=================================
+GPU 209
+allocated memory: 135
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 428, size: 24, type: 1
+PRN 500, size: 86, type: 1
+PRN 573, size: 25, type: 1
+=================================
+GPU 210
+allocated memory: 141
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 66, size: 65, type: 2
+PRN 502, size: 50, type: 2
+PRN 505, size: 26, type: 2
+=================================
+GPU 211
+allocated memory: 150
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 331, size: 49, type: 1
+PRN 503, size: 58, type: 1
+PRN 512, size: 43, type: 1
+=================================
+GPU 212
+allocated memory: 139
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 210, size: 86, type: 1
+PRN 507, size: 53, type: 1
+=================================
+GPU 213
+allocated memory: 150
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 72, size: 35, type: 1
+PRN 420, size: 92, type: 1
+PRN 581, size: 23, type: 1
+=================================
+GPU 214
+allocated memory: 145
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 493, size: 86, type: 0
+PRN 513, size: 31, type: 0
+PRN 539, size: 28, type: 0
+=================================
+GPU 215
+allocated memory: 132
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 219, size: 40, type: 0
+PRN 511, size: 92, type: 0
+=================================
+GPU 216
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 217
+allocated memory: 127
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 63, size: 56, type: 0
+PRN 515, size: 71, type: 0
+=================================
+GPU 218
+allocated memory: 112
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 520, size: 48, type: 0
+PRN 524, size: 64, type: 0
+=================================
+GPU 219
+allocated memory: 130
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 298, size: 32, type: 0
+PRN 521, size: 77, type: 0
+PRN 580, size: 21, type: 0
+=================================
+GPU 220
+allocated memory: 89
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 522, size: 89, type: 0
+=================================
+GPU 221
+allocated memory: 150
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 527, size: 73, type: 1
+PRN 529, size: 47, type: 1
+PRN 540, size: 30, type: 1
+=================================
+GPU 222
+allocated memory: 144
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 528, size: 96, type: 0
+PRN 530, size: 48, type: 0
+=================================
+GPU 223
+allocated memory: 97
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 531, size: 40, type: 0
+PRN 533, size: 57, type: 0
+=================================
+GPU 224
+allocated memory: 99
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 42, size: 31, type: 2
+PRN 534, size: 42, type: 2
+PRN 542, size: 26, type: 2
+=================================
+GPU 225
+allocated memory: 147
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 161, size: 98, type: 1
+PRN 547, size: 49, type: 1
+=================================
+GPU 226
+allocated memory: 100
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 544, size: 100, type: 0
+=================================
+GPU 227
+allocated memory: 139
+2 allocated types: {0, 1}
+Allocated PRNs: 
+PRN 546, size: 65, type: 0
+PRN 548, size: 74, type: 1
+=================================
+GPU 228
+allocated memory: 150
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 549, size: 66, type: 0
+PRN 552, size: 84, type: 0
+=================================
+GPU 229
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 230
+allocated memory: 116
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 124, size: 84, type: 2
+PRN 384, size: 32, type: 2
+=================================
+GPU 231
+allocated memory: 98
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 555, size: 28, type: 0
+PRN 558, size: 70, type: 0
+=================================
+GPU 232
+allocated memory: 147
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 559, size: 84, type: 2
+PRN 561, size: 63, type: 2
+=================================
+GPU 233
+allocated memory: 125
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 299, size: 86, type: 0
+PRN 562, size: 39, type: 0
+=================================
+GPU 234
+allocated memory: 136
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 97, size: 67, type: 2
+PRN 564, size: 29, type: 2
+PRN 565, size: 40, type: 2
+=================================
+GPU 235
+allocated memory: 76
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 566, size: 40, type: 1
+PRN 567, size: 36, type: 1
+=================================
+GPU 236
+allocated memory: 122
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 136, size: 87, type: 2
+PRN 570, size: 35, type: 2
+=================================
+GPU 237
+allocated memory: 140
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 390, size: 72, type: 0
+PRN 571, size: 68, type: 0
+=================================
+GPU 238
+allocated memory: 141
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 22, size: 47, type: 0
+PRN 458, size: 94, type: 0
+=================================
+GPU 239
+allocated memory: 148
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 410, size: 83, type: 2
+PRN 582, size: 65, type: 2
+=================================
+GPU 240
+allocated memory: 138
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 272, size: 26, type: 1
+PRN 579, size: 75, type: 1
+PRN 585, size: 37, type: 1
+=================================
+GPU 241
+allocated memory: 143
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 197, size: 67, type: 2
+PRN 583, size: 76, type: 2
+=================================
+GPU 242
+allocated memory: 141
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 121, size: 55, type: 1
+PRN 588, size: 86, type: 1
+=================================
+GPU 243
+allocated memory: 114
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 61, size: 20, type: 2
+PRN 591, size: 52, type: 2
+PRN 593, size: 42, type: 2
+=================================
+GPU 244
+allocated memory: 140
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 592, size: 53, type: 2
+PRN 594, size: 87, type: 2
+=================================
+GPU 245
+allocated memory: 101
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 239, size: 41, type: 1
+PRN 597, size: 60, type: 1
+=================================
+GPU 246
+allocated memory: 139
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 288, size: 55, type: 1
+PRN 598, size: 84, type: 1
+=================================
+GPU 247
+allocated memory: 108
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 112, size: 40, type: 1
+PRN 496, size: 68, type: 1
+=================================
+GPU 248
+allocated memory: 128
+2 allocated types: {1, 2}
+Allocated PRNs: 
+PRN 52, size: 71, type: 1
+PRN 245, size: 36, type: 2
+PRN 364, size: 21, type: 1
+=================================
+GPU 249
+allocated memory: 135
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 186, size: 94, type: 2
+PRN 543, size: 41, type: 2
+=================================
+GPU 250
+allocated memory: 100
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 233, size: 100, type: 0
+=================================
+GPU 251
+allocated memory: 128
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 333, size: 48, type: 1
+PRN 577, size: 80, type: 1
+=================================
+GPU 252
+allocated memory: 79
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 408, size: 79, type: 1
+=================================
+GPU 253
+allocated memory: 101
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 40, size: 33, type: 0
+PRN 64, size: 33, type: 0
+PRN 538, size: 35, type: 0
+=================================
+GPU 254
+allocated memory: 134
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 78, size: 39, type: 0
+PRN 91, size: 95, type: 0
+=================================
+GPU 255
+allocated memory: 150
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 130, size: 67, type: 1
+PRN 416, size: 83, type: 1
+=================================
+GPU 256
+allocated memory: 136
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 83, size: 66, type: 0
+PRN 461, size: 70, type: 0
+=================================
+GPU 257
+allocated memory: 143
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 212, size: 48, type: 2
+PRN 254, size: 95, type: 2
+=================================
+GPU 258
+allocated memory: 119
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 170, size: 86, type: 1
+PRN 183, size: 33, type: 1
+=================================
+GPU 259
+allocated memory: 147
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 116, size: 69, type: 0
+PRN 367, size: 78, type: 0
+=================================
+GPU 260
+allocated memory: 99
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 426, size: 99, type: 0
+=================================
+GPU 261
+allocated memory: 145
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 198, size: 34, type: 1
+PRN 422, size: 78, type: 1
+PRN 535, size: 33, type: 1
+=================================
+GPU 262
+allocated memory: 116
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 140, size: 47, type: 1
+PRN 317, size: 69, type: 1
+=================================
+GPU 263
+allocated memory: 109
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 80, size: 54, type: 1
+PRN 387, size: 55, type: 1
+=================================
+GPU 264
+allocated memory: 94
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 148, size: 94, type: 1
+=================================
+GPU 265
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 266
+allocated memory: 144
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 73, size: 67, type: 2
+PRN 419, size: 56, type: 2
+PRN 599, size: 21, type: 2
+=================================
+GPU 267
+allocated memory: 138
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 218, size: 73, type: 0
+PRN 232, size: 65, type: 0
+=================================
+GPU 268
+allocated memory: 87
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 76, size: 24, type: 2
+PRN 235, size: 63, type: 2
+=================================
+GPU 269
+allocated memory: 130
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 514, size: 97, type: 1
+PRN 575, size: 33, type: 1
+=================================
+GPU 270
+allocated memory: 145
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 253, size: 90, type: 1
+PRN 329, size: 55, type: 1
+=================================
+GPU 271
+allocated memory: 146
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 262, size: 100, type: 0
+PRN 334, size: 46, type: 0
+=================================
+GPU 272
+allocated memory: 128
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 58, size: 77, type: 1
+PRN 348, size: 51, type: 1
+=================================
+GPU 273
+allocated memory: 71
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 49, size: 71, type: 0
+=================================
+GPU 274
+allocated memory: 142
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 152, size: 90, type: 0
+PRN 286, size: 31, type: 0
+PRN 440, size: 21, type: 0
+=================================
+GPU 275
+allocated memory: 147
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 81, size: 95, type: 2
+PRN 274, size: 52, type: 2
+=================================
+GPU 276
+allocated memory: 143
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 146, size: 46, type: 0
+PRN 281, size: 25, type: 0
+PRN 388, size: 72, type: 0
+=================================
+GPU 277
+allocated memory: 129
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 504, size: 42, type: 0
+PRN 550, size: 87, type: 0
+=================================
+GPU 278
+allocated memory: 123
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 312, size: 66, type: 0
+PRN 510, size: 57, type: 0
+=================================
+GPU 279
+allocated memory: 104
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 501, size: 66, type: 0
+PRN 554, size: 38, type: 0
+=================================
+GPU 280
+allocated memory: 145
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 160, size: 61, type: 1
+PRN 578, size: 84, type: 1
+=================================
+GPU 281
+allocated memory: 150
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 206, size: 78, type: 1
+PRN 506, size: 72, type: 1
+=================================
+GPU 282
+allocated memory: 123
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 223, size: 39, type: 0
+PRN 292, size: 84, type: 0
+=================================
+GPU 283
+allocated memory: 145
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 133, size: 64, type: 0
+PRN 393, size: 81, type: 0
+=================================
+GPU 284
+allocated memory: 119
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 249, size: 30, type: 1
+PRN 376, size: 67, type: 1
+PRN 483, size: 22, type: 1
+=================================
+GPU 285
+allocated memory: 129
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 21, size: 46, type: 0
+PRN 94, size: 83, type: 0
+=================================
+GPU 286
+allocated memory: 136
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 339, size: 43, type: 2
+PRN 415, size: 93, type: 2
+=================================
+GPU 287
+allocated memory: 0
+0 allocated types: set()
+Allocated PRNs: 
+=================================
+GPU 288
+allocated memory: 135
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 171, size: 88, type: 2
+PRN 400, size: 47, type: 2
+=================================
+GPU 289
+allocated memory: 141
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 255, size: 85, type: 0
+PRN 268, size: 22, type: 0
+PRN 295, size: 34, type: 0
+=================================
+GPU 290
+allocated memory: 125
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 155, size: 29, type: 2
+PRN 205, size: 32, type: 2
+PRN 413, size: 64, type: 2
+=================================
+GPU 291
+allocated memory: 147
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 220, size: 20, type: 0
+PRN 284, size: 55, type: 0
+PRN 328, size: 72, type: 0
+=================================
+GPU 292
+allocated memory: 111
+1 allocated types: {2}
+Allocated PRNs: 
+PRN 269, size: 57, type: 2
+PRN 382, size: 54, type: 2
+=================================
+GPU 293
+allocated memory: 148
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 243, size: 84, type: 0
+PRN 457, size: 64, type: 0
+=================================
+Feasibility: True
+Objective function: 288
+=================================

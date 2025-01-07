@@ -1,0 +1,29 @@
+=====================================================================
+                        ITERATED LOCAL SEARCH
+=====================================================================
+Iteration 0 - Best Objective: 391
+No valid GPUs found to move PRN 399 from GPU 74.
+No valid GPUs found to move PRN 407 from GPU 75.
+No valid GPUs found to move PRN 106 from GPU 19.
+No valid GPUs found to move PRN 41 from GPU 7.
+No valid GPUs found to move PRN 375 from GPU 69.
+No valid GPUs found to move PRN 242 from GPU 45.
+No valid GPUs found to move PRN 321 from GPU 58.
+No valid GPUs found to move PRN 197 from GPU 36.
+No valid GPUs found to move PRN 207 from GPU 37.
+No valid GPUs found to move PRN 383 from GPU 71.
+No valid GPUs found to move PRN 499 from GPU 93.
+No valid GPUs found to move PRN 433 from GPU 80.
+No valid GPUs found to move PRN 282 from GPU 53.
+No valid GPUs found to move PRN 391 from GPU 72.
+No valid GPUs found to move PRN 271 from GPU 51.
+No valid GPUs found to move PRN 519 from GPU 97.
+No valid GPUs found to move PRN 492 from GPU 92.
+No valid GPUs found to move PRN 365 from GPU 68.
+No valid GPUs found to move PRN 343 from GPU 63.
+No valid GPUs found to move PRN 171 from GPU 31.
+No valid GPUs found to move PRN 67 from GPU 11.
+No valid GPUs found to move PRN 457 from GPU 85.
+No valid GPUs found to move PRN 236 from GPU 44.
+No valid GPUs found to move PRN 487 from GPU 91.
+No valid GPUs found to move PRN 525 from GPU 98.

@@ -25,8 +25,12 @@ def run_experiment(instace_file_path, output_file_path ,max_iterations, perturba
 
 
 def main():        
-    run_experiment("./instances/dog_1.txt", "dog_1_it=150_pert=3.txt", max_iterations=150, perturbation_size=3)
-   
+    #run_experiment("./instances/dog_10.txt", "dog_10_it=1K_pert=3.txt", max_iterations=1000, perturbation_size=3)
+    dog10 = Instance("./instances/dog_10.txt")
+    sol_10 = Solution(dog10)
+    sol_10.create_initial_solution()
+    sol_10.print_solution()
+
     
 
 

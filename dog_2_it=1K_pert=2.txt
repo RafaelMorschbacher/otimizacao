@@ -1,0 +1,1829 @@
+=====================================================================
+                        ITERATED LOCAL SEARCH
+=====================================================================
+Iteration 0 - Best Objective: 331
+Moving to neighbor with objective function = 330
+Iteration 1 - Best Objective: 330
+No improvement for 100 iterations. Stopping local search.
+Iteration 2 - Best Objective: 330
+Moving to neighbor with objective function = 329
+Iteration 3 - Best Objective: 329
+No improvement for 100 iterations. Stopping local search.
+Iteration 4 - Best Objective: 329
+No improvement for 100 iterations. Stopping local search.
+Iteration 5 - Best Objective: 329
+Moving to neighbor with objective function = 328
+Moving to neighbor with objective function = 327
+Iteration 6 - Best Objective: 327
+No improvement for 100 iterations. Stopping local search.
+Iteration 7 - Best Objective: 327
+Moving to neighbor with objective function = 326
+Moving to neighbor with objective function = 325
+Moving to neighbor with objective function = 324
+Iteration 8 - Best Objective: 324
+No improvement for 100 iterations. Stopping local search.
+Iteration 9 - Best Objective: 324
+Moving to neighbor with objective function = 323
+Moving to neighbor with objective function = 322
+Iteration 10 - Best Objective: 322
+No improvement for 100 iterations. Stopping local search.
+Iteration 11 - Best Objective: 322
+Moving to neighbor with objective function = 321
+Moving to neighbor with objective function = 320
+Iteration 12 - Best Objective: 320
+Moving to neighbor with objective function = 319
+Iteration 13 - Best Objective: 319
+Moving to neighbor with objective function = 318
+Moving to neighbor with objective function = 317
+Iteration 14 - Best Objective: 317
+No improvement for 100 iterations. Stopping local search.
+Iteration 15 - Best Objective: 317
+No improvement for 100 iterations. Stopping local search.
+Iteration 16 - Best Objective: 317
+Moving to neighbor with objective function = 317
+Moving to neighbor with objective function = 316
+Iteration 17 - Best Objective: 316
+Moving to neighbor with objective function = 315
+Iteration 18 - Best Objective: 315
+Moving to neighbor with objective function = 314
+Moving to neighbor with objective function = 313
+Iteration 19 - Best Objective: 313
+Moving to neighbor with objective function = 312
+Iteration 20 - Best Objective: 312
+Moving to neighbor with objective function = 311
+Iteration 21 - Best Objective: 311
+Moving to neighbor with objective function = 310
+Moving to neighbor with objective function = 309
+Iteration 22 - Best Objective: 309
+Moving to neighbor with objective function = 308
+Moving to neighbor with objective function = 307
+Moving to neighbor with objective function = 306
+Moving to neighbor with objective function = 305
+Iteration 23 - Best Objective: 305
+No improvement for 100 iterations. Stopping local search.
+Iteration 24 - Best Objective: 305
+Moving to neighbor with objective function = 304
+Moving to neighbor with objective function = 303
+Iteration 25 - Best Objective: 303
+Moving to neighbor with objective function = 303
+Iteration 26 - Best Objective: 303
+No improvement for 100 iterations. Stopping local search.
+Iteration 27 - Best Objective: 303
+No improvement for 100 iterations. Stopping local search.
+Iteration 28 - Best Objective: 303
+Moving to neighbor with objective function = 302
+Iteration 29 - Best Objective: 302
+Moving to neighbor with objective function = 301
+Iteration 30 - Best Objective: 301
+Moving to neighbor with objective function = 302
+Moving to neighbor with objective function = 301
+Moving to neighbor with objective function = 300
+Moving to neighbor with objective function = 299
+Iteration 31 - Best Objective: 299
+Moving to neighbor with objective function = 298
+Moving to neighbor with objective function = 297
+Iteration 32 - Best Objective: 297
+Moving to neighbor with objective function = 296
+Moving to neighbor with objective function = 295
+Moving to neighbor with objective function = 294
+Moving to neighbor with objective function = 293
+Moving to neighbor with objective function = 292
+Iteration 33 - Best Objective: 292
+Moving to neighbor with objective function = 291
+Iteration 34 - Best Objective: 291
+Moving to neighbor with objective function = 289
+Moving to neighbor with objective function = 288
+Moving to neighbor with objective function = 287
+Iteration 35 - Best Objective: 287
+No improvement for 100 iterations. Stopping local search.
+Iteration 36 - Best Objective: 287
+Moving to neighbor with objective function = 286
+Moving to neighbor with objective function = 285
+Iteration 37 - Best Objective: 285
+Moving to neighbor with objective function = 285
+Moving to neighbor with objective function = 284
+Moving to neighbor with objective function = 283
+Iteration 38 - Best Objective: 283
+No improvement for 100 iterations. Stopping local search.
+Iteration 39 - Best Objective: 283
+Moving to neighbor with objective function = 283
+Moving to neighbor with objective function = 282
+Moving to neighbor with objective function = 281
+Iteration 40 - Best Objective: 281
+Moving to neighbor with objective function = 281
+Iteration 41 - Best Objective: 281
+Moving to neighbor with objective function = 280
+Iteration 42 - Best Objective: 280
+No improvement for 100 iterations. Stopping local search.
+Iteration 43 - Best Objective: 280
+Moving to neighbor with objective function = 279
+Iteration 44 - Best Objective: 279
+No improvement for 100 iterations. Stopping local search.
+Iteration 45 - Best Objective: 279
+No improvement for 100 iterations. Stopping local search.
+Iteration 46 - Best Objective: 279
+No improvement for 100 iterations. Stopping local search.
+Iteration 47 - Best Objective: 279
+Moving to neighbor with objective function = 278
+Iteration 48 - Best Objective: 278
+Moving to neighbor with objective function = 277
+Moving to neighbor with objective function = 276
+Iteration 49 - Best Objective: 276
+Moving to neighbor with objective function = 276
+Iteration 50 - Best Objective: 276
+Moving to neighbor with objective function = 276
+Moving to neighbor with objective function = 275
+Iteration 51 - Best Objective: 275
+Moving to neighbor with objective function = 275
+Iteration 52 - Best Objective: 275
+No improvement for 100 iterations. Stopping local search.
+Iteration 53 - Best Objective: 275
+Moving to neighbor with objective function = 275
+Moving to neighbor with objective function = 274
+Iteration 54 - Best Objective: 274
+No improvement for 100 iterations. Stopping local search.
+Iteration 55 - Best Objective: 274
+No improvement for 100 iterations. Stopping local search.
+Iteration 56 - Best Objective: 274
+Moving to neighbor with objective function = 273
+Iteration 57 - Best Objective: 273
+Moving to neighbor with objective function = 272
+Iteration 58 - Best Objective: 272
+Moving to neighbor with objective function = 272
+Moving to neighbor with objective function = 271
+Iteration 59 - Best Objective: 271
+No improvement for 100 iterations. Stopping local search.
+Iteration 60 - Best Objective: 271
+Moving to neighbor with objective function = 270
+Iteration 61 - Best Objective: 270
+Moving to neighbor with objective function = 271
+Moving to neighbor with objective function = 270
+Iteration 62 - Best Objective: 270
+No improvement for 100 iterations. Stopping local search.
+Iteration 63 - Best Objective: 270
+Moving to neighbor with objective function = 269
+Iteration 64 - Best Objective: 269
+Moving to neighbor with objective function = 269
+Moving to neighbor with objective function = 268
+Iteration 65 - Best Objective: 268
+No improvement for 100 iterations. Stopping local search.
+Iteration 66 - Best Objective: 268
+Moving to neighbor with objective function = 268
+Moving to neighbor with objective function = 267
+Iteration 67 - Best Objective: 267
+No improvement for 100 iterations. Stopping local search.
+Iteration 68 - Best Objective: 267
+No improvement for 100 iterations. Stopping local search.
+Iteration 69 - Best Objective: 267
+Moving to neighbor with objective function = 267
+Moving to neighbor with objective function = 266
+Iteration 70 - Best Objective: 266
+Moving to neighbor with objective function = 266
+Moving to neighbor with objective function = 265
+Moving to neighbor with objective function = 264
+Iteration 71 - Best Objective: 264
+Moving to neighbor with objective function = 263
+Iteration 72 - Best Objective: 263
+Moving to neighbor with objective function = 262
+Moving to neighbor with objective function = 261
+Iteration 73 - Best Objective: 261
+Moving to neighbor with objective function = 261
+Iteration 74 - Best Objective: 261
+Moving to neighbor with objective function = 260
+Moving to neighbor with objective function = 259
+Moving to neighbor with objective function = 258
+Iteration 75 - Best Objective: 258
+Moving to neighbor with objective function = 257
+Iteration 76 - Best Objective: 257
+Moving to neighbor with objective function = 258
+Iteration 77 - Best Objective: 257
+Moving to neighbor with objective function = 257
+Iteration 78 - Best Objective: 257
+Moving to neighbor with objective function = 256
+Iteration 79 - Best Objective: 256
+No improvement for 100 iterations. Stopping local search.
+Iteration 80 - Best Objective: 256
+Moving to neighbor with objective function = 257
+Moving to neighbor with objective function = 256
+Moving to neighbor with objective function = 255
+Iteration 81 - Best Objective: 255
+Moving to neighbor with objective function = 255
+Iteration 82 - Best Objective: 255
+Moving to neighbor with objective function = 255
+Iteration 83 - Best Objective: 255
+No improvement for 100 iterations. Stopping local search.
+Iteration 84 - Best Objective: 255
+No improvement for 100 iterations. Stopping local search.
+Iteration 85 - Best Objective: 255
+No improvement for 100 iterations. Stopping local search.
+Iteration 86 - Best Objective: 255
+Moving to neighbor with objective function = 255
+Iteration 87 - Best Objective: 255
+Moving to neighbor with objective function = 255
+Moving to neighbor with objective function = 254
+Iteration 88 - Best Objective: 254
+No improvement for 100 iterations. Stopping local search.
+Iteration 89 - Best Objective: 254
+Moving to neighbor with objective function = 254
+Iteration 90 - Best Objective: 254
+Moving to neighbor with objective function = 253
+Iteration 91 - Best Objective: 253
+Moving to neighbor with objective function = 253
+Iteration 92 - Best Objective: 253
+No improvement for 100 iterations. Stopping local search.
+Iteration 93 - Best Objective: 253
+Moving to neighbor with objective function = 253
+Moving to neighbor with objective function = 252
+Iteration 94 - Best Objective: 252
+No improvement for 100 iterations. Stopping local search.
+Iteration 95 - Best Objective: 252
+Moving to neighbor with objective function = 253
+Moving to neighbor with objective function = 252
+Iteration 96 - Best Objective: 252
+No improvement for 100 iterations. Stopping local search.
+Iteration 97 - Best Objective: 252
+Moving to neighbor with objective function = 253
+Iteration 98 - Best Objective: 252
+Moving to neighbor with objective function = 252
+Moving to neighbor with objective function = 251
+Iteration 99 - Best Objective: 251
+Moving to neighbor with objective function = 250
+Moving to neighbor with objective function = 249
+Iteration 100 - Best Objective: 249
+Moving to neighbor with objective function = 249
+Iteration 101 - Best Objective: 249
+No improvement for 100 iterations. Stopping local search.
+Iteration 102 - Best Objective: 249
+Moving to neighbor with objective function = 249
+Iteration 103 - Best Objective: 249
+No improvement for 100 iterations. Stopping local search.
+Iteration 104 - Best Objective: 249
+No improvement for 100 iterations. Stopping local search.
+Iteration 105 - Best Objective: 249
+No improvement for 100 iterations. Stopping local search.
+Iteration 106 - Best Objective: 249
+Moving to neighbor with objective function = 249
+Moving to neighbor with objective function = 248
+Iteration 107 - Best Objective: 248
+No improvement for 100 iterations. Stopping local search.
+Iteration 108 - Best Objective: 248
+No improvement for 100 iterations. Stopping local search.
+Iteration 109 - Best Objective: 248
+Moving to neighbor with objective function = 247
+Moving to neighbor with objective function = 246
+Iteration 110 - Best Objective: 246
+Moving to neighbor with objective function = 246
+Moving to neighbor with objective function = 245
+Iteration 111 - Best Objective: 245
+Moving to neighbor with objective function = 246
+Iteration 112 - Best Objective: 245
+Moving to neighbor with objective function = 245
+Moving to neighbor with objective function = 244
+Moving to neighbor with objective function = 243
+Iteration 113 - Best Objective: 243
+Moving to neighbor with objective function = 242
+Moving to neighbor with objective function = 241
+Iteration 114 - Best Objective: 241
+Moving to neighbor with objective function = 241
+Iteration 115 - Best Objective: 241
+No improvement for 100 iterations. Stopping local search.
+Iteration 116 - Best Objective: 241
+Moving to neighbor with objective function = 241
+Moving to neighbor with objective function = 240
+Moving to neighbor with objective function = 239
+Iteration 117 - Best Objective: 239
+Moving to neighbor with objective function = 239
+Moving to neighbor with objective function = 238
+Moving to neighbor with objective function = 237
+Iteration 118 - Best Objective: 237
+Moving to neighbor with objective function = 237
+Moving to neighbor with objective function = 236
+Iteration 119 - Best Objective: 236
+Moving to neighbor with objective function = 237
+Iteration 120 - Best Objective: 236
+Moving to neighbor with objective function = 235
+Iteration 121 - Best Objective: 235
+Moving to neighbor with objective function = 235
+Moving to neighbor with objective function = 234
+Iteration 122 - Best Objective: 234
+Moving to neighbor with objective function = 234
+Moving to neighbor with objective function = 233
+Iteration 123 - Best Objective: 233
+Moving to neighbor with objective function = 234
+Iteration 124 - Best Objective: 233
+Moving to neighbor with objective function = 232
+Moving to neighbor with objective function = 231
+Iteration 125 - Best Objective: 231
+Moving to neighbor with objective function = 232
+Iteration 126 - Best Objective: 231
+No improvement for 100 iterations. Stopping local search.
+Iteration 127 - Best Objective: 231
+Moving to neighbor with objective function = 231
+Moving to neighbor with objective function = 230
+Moving to neighbor with objective function = 229
+Iteration 128 - Best Objective: 229
+Moving to neighbor with objective function = 229
+Iteration 129 - Best Objective: 229
+Moving to neighbor with objective function = 230
+Iteration 130 - Best Objective: 229
+Moving to neighbor with objective function = 230
+Moving to neighbor with objective function = 229
+Iteration 131 - Best Objective: 229
+Moving to neighbor with objective function = 230
+Iteration 132 - Best Objective: 229
+Moving to neighbor with objective function = 230
+Iteration 133 - Best Objective: 229
+No improvement for 100 iterations. Stopping local search.
+Iteration 134 - Best Objective: 229
+No improvement for 100 iterations. Stopping local search.
+Iteration 135 - Best Objective: 229
+Moving to neighbor with objective function = 229
+Iteration 136 - Best Objective: 229
+No improvement for 100 iterations. Stopping local search.
+Iteration 137 - Best Objective: 229
+Moving to neighbor with objective function = 229
+Moving to neighbor with objective function = 228
+Moving to neighbor with objective function = 227
+Iteration 138 - Best Objective: 227
+Moving to neighbor with objective function = 227
+Moving to neighbor with objective function = 226
+Iteration 139 - Best Objective: 226
+No improvement for 100 iterations. Stopping local search.
+Iteration 140 - Best Objective: 226
+No improvement for 100 iterations. Stopping local search.
+Iteration 141 - Best Objective: 226
+No improvement for 100 iterations. Stopping local search.
+Iteration 142 - Best Objective: 226
+Moving to neighbor with objective function = 226
+Iteration 143 - Best Objective: 226
+No improvement for 100 iterations. Stopping local search.
+Iteration 144 - Best Objective: 226
+Moving to neighbor with objective function = 225
+Iteration 145 - Best Objective: 225
+No improvement for 100 iterations. Stopping local search.
+Iteration 146 - Best Objective: 225
+Moving to neighbor with objective function = 224
+Iteration 147 - Best Objective: 224
+No improvement for 100 iterations. Stopping local search.
+Iteration 148 - Best Objective: 224
+Moving to neighbor with objective function = 224
+Iteration 149 - Best Objective: 224
+Moving to neighbor with objective function = 225
+Moving to neighbor with objective function = 224
+Iteration 150 - Best Objective: 224
+Moving to neighbor with objective function = 223
+Moving to neighbor with objective function = 222
+Iteration 151 - Best Objective: 222
+No improvement for 100 iterations. Stopping local search.
+Iteration 152 - Best Objective: 222
+Moving to neighbor with objective function = 222
+Iteration 153 - Best Objective: 222
+Moving to neighbor with objective function = 223
+Iteration 154 - Best Objective: 222
+Moving to neighbor with objective function = 223
+Iteration 155 - Best Objective: 222
+No improvement for 100 iterations. Stopping local search.
+Iteration 156 - Best Objective: 222
+No improvement for 100 iterations. Stopping local search.
+Iteration 157 - Best Objective: 222
+Moving to neighbor with objective function = 222
+Iteration 158 - Best Objective: 222
+Moving to neighbor with objective function = 222
+Moving to neighbor with objective function = 221
+Iteration 159 - Best Objective: 221
+Moving to neighbor with objective function = 222
+Iteration 160 - Best Objective: 221
+Moving to neighbor with objective function = 221
+Iteration 161 - Best Objective: 221
+No improvement for 100 iterations. Stopping local search.
+Iteration 162 - Best Objective: 221
+Moving to neighbor with objective function = 222
+Iteration 163 - Best Objective: 221
+No improvement for 100 iterations. Stopping local search.
+Iteration 164 - Best Objective: 221
+No improvement for 100 iterations. Stopping local search.
+Iteration 165 - Best Objective: 221
+Moving to neighbor with objective function = 222
+Iteration 166 - Best Objective: 221
+Moving to neighbor with objective function = 221
+Iteration 167 - Best Objective: 221
+Moving to neighbor with objective function = 222
+Iteration 168 - Best Objective: 221
+Moving to neighbor with objective function = 221
+Moving to neighbor with objective function = 220
+Iteration 169 - Best Objective: 220
+No improvement for 100 iterations. Stopping local search.
+Iteration 170 - Best Objective: 220
+No improvement for 100 iterations. Stopping local search.
+Iteration 171 - Best Objective: 220
+Moving to neighbor with objective function = 221
+Moving to neighbor with objective function = 220
+Iteration 172 - Best Objective: 220
+No improvement for 100 iterations. Stopping local search.
+Iteration 173 - Best Objective: 220
+No improvement for 100 iterations. Stopping local search.
+Iteration 174 - Best Objective: 220
+Moving to neighbor with objective function = 221
+Moving to neighbor with objective function = 220
+Moving to neighbor with objective function = 219
+Moving to neighbor with objective function = 218
+Iteration 175 - Best Objective: 218
+Moving to neighbor with objective function = 219
+Iteration 176 - Best Objective: 218
+Moving to neighbor with objective function = 218
+Iteration 177 - Best Objective: 218
+No improvement for 100 iterations. Stopping local search.
+Iteration 178 - Best Objective: 218
+No improvement for 100 iterations. Stopping local search.
+Iteration 179 - Best Objective: 218
+No improvement for 100 iterations. Stopping local search.
+Iteration 180 - Best Objective: 218
+Moving to neighbor with objective function = 218
+Iteration 181 - Best Objective: 218
+No improvement for 100 iterations. Stopping local search.
+Iteration 182 - Best Objective: 218
+Moving to neighbor with objective function = 219
+Iteration 183 - Best Objective: 218
+No improvement for 100 iterations. Stopping local search.
+Iteration 184 - Best Objective: 218
+Moving to neighbor with objective function = 218
+Moving to neighbor with objective function = 217
+Iteration 185 - Best Objective: 217
+No improvement for 100 iterations. Stopping local search.
+Iteration 186 - Best Objective: 217
+Moving to neighbor with objective function = 217
+Moving to neighbor with objective function = 216
+Iteration 187 - Best Objective: 216
+No improvement for 100 iterations. Stopping local search.
+Iteration 188 - Best Objective: 216
+No improvement for 100 iterations. Stopping local search.
+Iteration 189 - Best Objective: 216
+No improvement for 100 iterations. Stopping local search.
+Iteration 190 - Best Objective: 216
+No improvement for 100 iterations. Stopping local search.
+Iteration 191 - Best Objective: 216
+Moving to neighbor with objective function = 216
+Iteration 192 - Best Objective: 216
+Moving to neighbor with objective function = 217
+Moving to neighbor with objective function = 216
+Moving to neighbor with objective function = 215
+Moving to neighbor with objective function = 214
+Iteration 193 - Best Objective: 214
+No improvement for 100 iterations. Stopping local search.
+Iteration 194 - Best Objective: 214
+Moving to neighbor with objective function = 213
+Iteration 195 - Best Objective: 213
+Moving to neighbor with objective function = 212
+Iteration 196 - Best Objective: 212
+No improvement for 100 iterations. Stopping local search.
+Iteration 197 - Best Objective: 212
+No improvement for 100 iterations. Stopping local search.
+Iteration 198 - Best Objective: 212
+Moving to neighbor with objective function = 213
+Iteration 199 - Best Objective: 212
+No improvement for 100 iterations. Stopping local search.
+Iteration 200 - Best Objective: 212
+No improvement for 100 iterations. Stopping local search.
+Iteration 201 - Best Objective: 212
+No improvement for 100 iterations. Stopping local search.
+Iteration 202 - Best Objective: 212
+No improvement for 100 iterations. Stopping local search.
+Iteration 203 - Best Objective: 212
+Moving to neighbor with objective function = 211
+Iteration 204 - Best Objective: 211
+No improvement for 100 iterations. Stopping local search.
+Iteration 205 - Best Objective: 211
+Moving to neighbor with objective function = 212
+Iteration 206 - Best Objective: 211
+Moving to neighbor with objective function = 211
+Moving to neighbor with objective function = 210
+Iteration 207 - Best Objective: 210
+No improvement for 100 iterations. Stopping local search.
+Iteration 208 - Best Objective: 210
+Moving to neighbor with objective function = 211
+Iteration 209 - Best Objective: 210
+Moving to neighbor with objective function = 210
+Iteration 210 - Best Objective: 210
+No improvement for 100 iterations. Stopping local search.
+Iteration 211 - Best Objective: 210
+No improvement for 100 iterations. Stopping local search.
+Iteration 212 - Best Objective: 210
+No improvement for 100 iterations. Stopping local search.
+Iteration 213 - Best Objective: 210
+Moving to neighbor with objective function = 209
+Iteration 214 - Best Objective: 209
+Moving to neighbor with objective function = 208
+Iteration 215 - Best Objective: 208
+No improvement for 100 iterations. Stopping local search.
+Iteration 216 - Best Objective: 208
+No improvement for 100 iterations. Stopping local search.
+Iteration 217 - Best Objective: 208
+Moving to neighbor with objective function = 208
+Iteration 218 - Best Objective: 208
+No improvement for 100 iterations. Stopping local search.
+Iteration 219 - Best Objective: 208
+Moving to neighbor with objective function = 207
+Moving to neighbor with objective function = 206
+Moving to neighbor with objective function = 205
+Iteration 220 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 221 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 222 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 223 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 224 - Best Objective: 205
+Moving to neighbor with objective function = 205
+Iteration 225 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 226 - Best Objective: 205
+Moving to neighbor with objective function = 206
+Iteration 227 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 228 - Best Objective: 205
+Moving to neighbor with objective function = 205
+Iteration 229 - Best Objective: 205
+Moving to neighbor with objective function = 205
+Iteration 230 - Best Objective: 205
+Moving to neighbor with objective function = 206
+Iteration 231 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 232 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 233 - Best Objective: 205
+Moving to neighbor with objective function = 205
+Iteration 234 - Best Objective: 205
+No improvement for 100 iterations. Stopping local search.
+Iteration 235 - Best Objective: 205
+Moving to neighbor with objective function = 205
+Moving to neighbor with objective function = 204
+Iteration 236 - Best Objective: 204
+Moving to neighbor with objective function = 205
+Iteration 237 - Best Objective: 204
+No improvement for 100 iterations. Stopping local search.
+Iteration 238 - Best Objective: 204
+No improvement for 100 iterations. Stopping local search.
+Iteration 239 - Best Objective: 204
+No improvement for 100 iterations. Stopping local search.
+Iteration 240 - Best Objective: 204
+Moving to neighbor with objective function = 205
+Moving to neighbor with objective function = 204
+Moving to neighbor with objective function = 203
+Iteration 241 - Best Objective: 203
+No improvement for 100 iterations. Stopping local search.
+Iteration 242 - Best Objective: 203
+No improvement for 100 iterations. Stopping local search.
+Iteration 243 - Best Objective: 203
+Moving to neighbor with objective function = 203
+Iteration 244 - Best Objective: 203
+No improvement for 100 iterations. Stopping local search.
+Iteration 245 - Best Objective: 203
+Moving to neighbor with objective function = 203
+Iteration 246 - Best Objective: 203
+No improvement for 100 iterations. Stopping local search.
+Iteration 247 - Best Objective: 203
+No improvement for 100 iterations. Stopping local search.
+Iteration 248 - Best Objective: 202
+No improvement for 100 iterations. Stopping local search.
+Iteration 249 - Best Objective: 202
+No improvement for 100 iterations. Stopping local search.
+Iteration 250 - Best Objective: 202
+No improvement for 100 iterations. Stopping local search.
+Iteration 251 - Best Objective: 202
+No improvement for 100 iterations. Stopping local search.
+Iteration 252 - Best Objective: 202
+Moving to neighbor with objective function = 202
+Moving to neighbor with objective function = 201
+Iteration 253 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 254 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 255 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 256 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 257 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 258 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 259 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 260 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 261 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 262 - Best Objective: 201
+Moving to neighbor with objective function = 202
+Iteration 263 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 264 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 265 - Best Objective: 201
+Moving to neighbor with objective function = 201
+Iteration 266 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 267 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 268 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 269 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 270 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 271 - Best Objective: 201
+Moving to neighbor with objective function = 202
+Iteration 272 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 273 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 274 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 275 - Best Objective: 201
+Moving to neighbor with objective function = 201
+Iteration 276 - Best Objective: 201
+Moving to neighbor with objective function = 202
+Iteration 277 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 278 - Best Objective: 201
+No improvement for 100 iterations. Stopping local search.
+Iteration 279 - Best Objective: 201
+Moving to neighbor with objective function = 201
+Iteration 280 - Best Objective: 201
+Moving to neighbor with objective function = 200
+Iteration 281 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 282 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 283 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 284 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 285 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 286 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 287 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 288 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 289 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 290 - Best Objective: 200
+Moving to neighbor with objective function = 200
+Iteration 291 - Best Objective: 200
+Moving to neighbor with objective function = 201
+Iteration 292 - Best Objective: 200
+Moving to neighbor with objective function = 201
+Iteration 293 - Best Objective: 200
+Moving to neighbor with objective function = 201
+Moving to neighbor with objective function = 200
+Iteration 294 - Best Objective: 200
+Moving to neighbor with objective function = 201
+Moving to neighbor with objective function = 200
+Iteration 295 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 296 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 297 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 298 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 299 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 300 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 301 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 302 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 303 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 304 - Best Objective: 200
+Moving to neighbor with objective function = 200
+Iteration 305 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 306 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 307 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 308 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 309 - Best Objective: 200
+Moving to neighbor with objective function = 201
+Iteration 310 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 311 - Best Objective: 200
+Moving to neighbor with objective function = 200
+Iteration 312 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 313 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 314 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 315 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 316 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 317 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 318 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 319 - Best Objective: 200
+No improvement for 100 iterations. Stopping local search.
+Iteration 320 - Best Objective: 200
+Moving to neighbor with objective function = 200
+Moving to neighbor with objective function = 199
+Iteration 321 - Best Objective: 199
+No improvement for 100 iterations. Stopping local search.
+Iteration 322 - Best Objective: 199
+No improvement for 100 iterations. Stopping local search.
+Iteration 323 - Best Objective: 199
+No improvement for 100 iterations. Stopping local search.
+Iteration 324 - Best Objective: 199
+Moving to neighbor with objective function = 199
+Iteration 325 - Best Objective: 199
+Moving to neighbor with objective function = 200
+Iteration 326 - Best Objective: 199
+No improvement for 100 iterations. Stopping local search.
+Iteration 327 - Best Objective: 199
+Moving to neighbor with objective function = 198
+Iteration 328 - Best Objective: 198
+Moving to neighbor with objective function = 197
+Iteration 329 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 330 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 331 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 332 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 333 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 334 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 335 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 336 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 337 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 338 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 339 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 340 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 341 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 342 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Iteration 343 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 344 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 345 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 346 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 347 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Iteration 348 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Iteration 349 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 350 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 351 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 352 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 353 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 354 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 355 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 356 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Iteration 357 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 358 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 359 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 360 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Iteration 361 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 362 - Best Objective: 197
+Moving to neighbor with objective function = 198
+Moving to neighbor with objective function = 197
+Iteration 363 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Iteration 364 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 365 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 366 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Iteration 367 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Iteration 368 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Iteration 369 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 370 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 371 - Best Objective: 197
+No improvement for 100 iterations. Stopping local search.
+Iteration 372 - Best Objective: 197
+Moving to neighbor with objective function = 197
+Moving to neighbor with objective function = 196
+Iteration 373 - Best Objective: 196
+No improvement for 100 iterations. Stopping local search.
+Iteration 374 - Best Objective: 196
+Moving to neighbor with objective function = 196
+Iteration 375 - Best Objective: 196
+Moving to neighbor with objective function = 196
+Iteration 376 - Best Objective: 196
+No improvement for 100 iterations. Stopping local search.
+Iteration 377 - Best Objective: 196
+No improvement for 100 iterations. Stopping local search.
+Iteration 378 - Best Objective: 196
+Moving to neighbor with objective function = 196
+Moving to neighbor with objective function = 195
+Iteration 379 - Best Objective: 195
+Moving to neighbor with objective function = 196
+Iteration 380 - Best Objective: 195
+No improvement for 100 iterations. Stopping local search.
+Iteration 381 - Best Objective: 195
+No improvement for 100 iterations. Stopping local search.
+Iteration 382 - Best Objective: 195
+No improvement for 100 iterations. Stopping local search.
+Iteration 383 - Best Objective: 195
+Moving to neighbor with objective function = 195
+Iteration 384 - Best Objective: 195
+No improvement for 100 iterations. Stopping local search.
+Iteration 385 - Best Objective: 195
+Moving to neighbor with objective function = 196
+Iteration 386 - Best Objective: 195
+No improvement for 100 iterations. Stopping local search.
+Iteration 387 - Best Objective: 195
+No improvement for 100 iterations. Stopping local search.
+Iteration 388 - Best Objective: 195
+Moving to neighbor with objective function = 194
+Iteration 389 - Best Objective: 194
+Moving to neighbor with objective function = 193
+Moving to neighbor with objective function = 192
+Iteration 390 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 391 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 392 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 393 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 394 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 395 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 396 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 397 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 398 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Iteration 399 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Iteration 400 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 401 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 402 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 403 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 404 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Moving to neighbor with objective function = 192
+Iteration 405 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 406 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 407 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 408 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Iteration 409 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 410 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 411 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 412 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 413 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Iteration 414 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Moving to neighbor with objective function = 192
+Iteration 415 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 416 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 417 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 418 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 419 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 420 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Iteration 421 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 422 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 423 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 424 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 425 - Best Objective: 192
+Moving to neighbor with objective function = 192
+Iteration 426 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Iteration 427 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 428 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 429 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 430 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 431 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 432 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Iteration 433 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 434 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 435 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 436 - Best Objective: 192
+Moving to neighbor with objective function = 193
+Iteration 437 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 438 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+Iteration 439 - Best Objective: 192
+No improvement for 100 iterations. Stopping local search.
+No improvement for multiple iterations. Stopping ILS after 440 iterations.
+=====================================================================
+                        EXPERIMENT RESULTS                         
+=====================================================================
+Initial solution objective function: 331
+Best solution objective function: 192
+Number of iterations: 1000
+Perturbation size: 2
+--- 501.078 seconds ---
+=====================================================================
+                        CURRENT SOLUTION
+=====================================================================
+=================================
+GPU 0
+allocated memory: 12
+2 allocated types: {32, 34}
+Allocated PRNs: 
+PRN 127, size: 5, type: 32
+PRN 264, size: 3, type: 34
+PRN 280, size: 2, type: 34
+PRN 324, size: 2, type: 34
+=================================
+GPU 1
+allocated memory: 8
+2 allocated types: {37, 23}
+Allocated PRNs: 
+PRN 39, size: 4, type: 37
+PRN 181, size: 4, type: 23
+=================================
+GPU 2
+allocated memory: 11
+1 allocated types: {15}
+Allocated PRNs: 
+PRN 45, size: 3, type: 15
+PRN 100, size: 4, type: 15
+PRN 157, size: 4, type: 15
+=================================
+GPU 3
+allocated memory: 12
+2 allocated types: {24, 2}
+Allocated PRNs: 
+PRN 12, size: 3, type: 24
+PRN 36, size: 2, type: 2
+PRN 50, size: 5, type: 2
+PRN 303, size: 2, type: 2
+=================================
+GPU 4
+allocated memory: 9
+2 allocated types: {60, 5}
+Allocated PRNs: 
+PRN 18, size: 2, type: 5
+PRN 23, size: 2, type: 60
+PRN 285, size: 3, type: 5
+PRN 319, size: 2, type: 5
+=================================
+GPU 5
+allocated memory: 11
+2 allocated types: {48, 3}
+Allocated PRNs: 
+PRN 109, size: 3, type: 3
+PRN 137, size: 5, type: 48
+PRN 210, size: 3, type: 48
+=================================
+GPU 6
+allocated memory: 12
+2 allocated types: {65, 12}
+Allocated PRNs: 
+PRN 22, size: 5, type: 65
+PRN 34, size: 4, type: 12
+PRN 53, size: 3, type: 65
+=================================
+GPU 7
+allocated memory: 10
+2 allocated types: {44, 39}
+Allocated PRNs: 
+PRN 28, size: 3, type: 44
+PRN 107, size: 2, type: 39
+PRN 261, size: 2, type: 44
+PRN 297, size: 3, type: 44
+=================================
+GPU 8
+allocated memory: 6
+1 allocated types: {68}
+Allocated PRNs: 
+PRN 31, size: 3, type: 68
+PRN 32, size: 3, type: 68
+=================================
+GPU 9
+allocated memory: 4
+1 allocated types: {25}
+Allocated PRNs: 
+PRN 38, size: 2, type: 25
+PRN 207, size: 2, type: 25
+=================================
+GPU 10
+allocated memory: 4
+2 allocated types: {0, 14}
+Allocated PRNs: 
+PRN 142, size: 2, type: 14
+PRN 188, size: 2, type: 0
+=================================
+GPU 11
+allocated memory: 11
+2 allocated types: {12, 60}
+Allocated PRNs: 
+PRN 43, size: 2, type: 12
+PRN 173, size: 3, type: 12
+PRN 231, size: 4, type: 60
+PRN 262, size: 2, type: 12
+=================================
+GPU 12
+allocated memory: 8
+1 allocated types: {63}
+Allocated PRNs: 
+PRN 47, size: 4, type: 63
+PRN 166, size: 4, type: 63
+=================================
+GPU 13
+allocated memory: 12
+1 allocated types: {8}
+Allocated PRNs: 
+PRN 48, size: 3, type: 8
+PRN 99, size: 4, type: 8
+PRN 224, size: 5, type: 8
+=================================
+GPU 14
+allocated memory: 7
+2 allocated types: {59, 13}
+Allocated PRNs: 
+PRN 52, size: 2, type: 13
+PRN 252, size: 2, type: 13
+PRN 298, size: 3, type: 59
+=================================
+GPU 15
+allocated memory: 12
+2 allocated types: {0, 69}
+Allocated PRNs: 
+PRN 14, size: 4, type: 0
+PRN 27, size: 2, type: 69
+PRN 58, size: 3, type: 69
+PRN 59, size: 3, type: 0
+=================================
+GPU 16
+allocated memory: 10
+2 allocated types: {58, 36}
+Allocated PRNs: 
+PRN 61, size: 3, type: 58
+PRN 62, size: 3, type: 36
+PRN 76, size: 4, type: 58
+=================================
+GPU 17
+allocated memory: 10
+3 allocated types: {0, 18, 55}
+Allocated PRNs: 
+PRN 68, size: 2, type: 0
+PRN 69, size: 2, type: 18
+PRN 141, size: 2, type: 55
+PRN 258, size: 2, type: 55
+PRN 316, size: 2, type: 0
+=================================
+GPU 18
+allocated memory: 10
+2 allocated types: {35, 70}
+Allocated PRNs: 
+PRN 67, size: 5, type: 35
+PRN 70, size: 2, type: 70
+PRN 313, size: 3, type: 70
+=================================
+GPU 19
+allocated memory: 11
+1 allocated types: {57}
+Allocated PRNs: 
+PRN 6, size: 3, type: 57
+PRN 19, size: 4, type: 57
+PRN 73, size: 2, type: 57
+PRN 167, size: 2, type: 57
+=================================
+GPU 20
+allocated memory: 12
+2 allocated types: {17, 45}
+Allocated PRNs: 
+PRN 80, size: 4, type: 45
+PRN 87, size: 3, type: 17
+PRN 143, size: 5, type: 45
+=================================
+GPU 21
+allocated memory: 9
+1 allocated types: {22}
+Allocated PRNs: 
+PRN 161, size: 5, type: 22
+PRN 322, size: 4, type: 22
+=================================
+GPU 22
+allocated memory: 12
+3 allocated types: {57, 29, 45}
+Allocated PRNs: 
+PRN 171, size: 3, type: 45
+PRN 204, size: 5, type: 57
+PRN 271, size: 4, type: 29
+=================================
+GPU 23
+allocated memory: 12
+2 allocated types: {27, 61}
+Allocated PRNs: 
+PRN 46, size: 2, type: 27
+PRN 88, size: 5, type: 27
+PRN 91, size: 2, type: 61
+PRN 326, size: 3, type: 61
+=================================
+GPU 24
+allocated memory: 8
+1 allocated types: {1}
+Allocated PRNs: 
+PRN 90, size: 5, type: 1
+PRN 125, size: 3, type: 1
+=================================
+GPU 25
+allocated memory: 12
+2 allocated types: {12, 7}
+Allocated PRNs: 
+PRN 94, size: 5, type: 7
+PRN 214, size: 2, type: 12
+PRN 328, size: 5, type: 7
+=================================
+GPU 26
+allocated memory: 10
+1 allocated types: {38}
+Allocated PRNs: 
+PRN 103, size: 2, type: 38
+PRN 198, size: 5, type: 38
+PRN 284, size: 3, type: 38
+=================================
+GPU 27
+allocated memory: 9
+2 allocated types: {49, 12}
+Allocated PRNs: 
+PRN 97, size: 5, type: 12
+PRN 117, size: 2, type: 12
+PRN 217, size: 2, type: 49
+=================================
+GPU 28
+allocated memory: 12
+2 allocated types: {11, 76}
+Allocated PRNs: 
+PRN 11, size: 2, type: 11
+PRN 104, size: 5, type: 11
+PRN 106, size: 2, type: 76
+PRN 289, size: 3, type: 11
+=================================
+GPU 29
+allocated memory: 6
+1 allocated types: {0}
+Allocated PRNs: 
+PRN 105, size: 4, type: 0
+PRN 165, size: 2, type: 0
+=================================
+GPU 30
+allocated memory: 11
+3 allocated types: {18, 3, 69}
+Allocated PRNs: 
+PRN 15, size: 2, type: 3
+PRN 110, size: 3, type: 3
+PRN 113, size: 3, type: 18
+PRN 146, size: 3, type: 69
+=================================
+GPU 31
+allocated memory: 11
+2 allocated types: {16, 19}
+Allocated PRNs: 
+PRN 20, size: 3, type: 19
+PRN 114, size: 3, type: 16
+PRN 115, size: 5, type: 19
+=================================
+GPU 32
+allocated memory: 11
+2 allocated types: {16, 2}
+Allocated PRNs: 
+PRN 17, size: 5, type: 2
+PRN 120, size: 3, type: 2
+PRN 196, size: 3, type: 16
+=================================
+GPU 33
+allocated memory: 12
+2 allocated types: {66, 21}
+Allocated PRNs: 
+PRN 123, size: 4, type: 21
+PRN 149, size: 3, type: 21
+PRN 159, size: 3, type: 21
+PRN 269, size: 2, type: 66
+=================================
+GPU 34
+allocated memory: 9
+2 allocated types: {10, 31}
+Allocated PRNs: 
+PRN 126, size: 5, type: 10
+PRN 128, size: 2, type: 31
+PRN 287, size: 2, type: 31
+=================================
+GPU 35
+allocated memory: 10
+1 allocated types: {36}
+Allocated PRNs: 
+PRN 54, size: 5, type: 36
+PRN 129, size: 5, type: 36
+=================================
+GPU 36
+allocated memory: 8
+2 allocated types: {8, 74}
+Allocated PRNs: 
+PRN 134, size: 5, type: 74
+PRN 160, size: 3, type: 8
+=================================
+GPU 37
+allocated memory: 10
+1 allocated types: {34}
+Allocated PRNs: 
+PRN 135, size: 4, type: 34
+PRN 274, size: 3, type: 34
+PRN 320, size: 3, type: 34
+=================================
+GPU 38
+allocated memory: 10
+2 allocated types: {10, 30}
+Allocated PRNs: 
+PRN 77, size: 2, type: 30
+PRN 138, size: 5, type: 30
+PRN 206, size: 3, type: 10
+=================================
+GPU 39
+allocated memory: 12
+3 allocated types: {17, 51, 59}
+Allocated PRNs: 
+PRN 95, size: 5, type: 51
+PRN 147, size: 2, type: 17
+PRN 245, size: 3, type: 51
+PRN 304, size: 2, type: 59
+=================================
+GPU 40
+allocated memory: 12
+2 allocated types: {48, 2}
+Allocated PRNs: 
+PRN 144, size: 3, type: 48
+PRN 145, size: 3, type: 2
+PRN 180, size: 2, type: 48
+PRN 283, size: 4, type: 48
+=================================
+GPU 41
+allocated memory: 12
+3 allocated types: {32, 64, 70}
+Allocated PRNs: 
+PRN 75, size: 2, type: 70
+PRN 151, size: 3, type: 32
+PRN 152, size: 2, type: 70
+PRN 168, size: 2, type: 64
+PRN 290, size: 3, type: 70
+=================================
+GPU 42
+allocated memory: 12
+2 allocated types: {16, 33}
+Allocated PRNs: 
+PRN 3, size: 4, type: 33
+PRN 44, size: 4, type: 33
+PRN 118, size: 4, type: 16
+=================================
+GPU 43
+allocated memory: 6
+3 allocated types: {9, 39, 15}
+Allocated PRNs: 
+PRN 8, size: 2, type: 15
+PRN 158, size: 2, type: 39
+PRN 220, size: 2, type: 9
+=================================
+GPU 44
+allocated memory: 10
+2 allocated types: {8, 30}
+Allocated PRNs: 
+PRN 13, size: 3, type: 8
+PRN 162, size: 2, type: 30
+PRN 163, size: 3, type: 8
+PRN 241, size: 2, type: 8
+=================================
+GPU 45
+allocated memory: 11
+3 allocated types: {5, 62, 71}
+Allocated PRNs: 
+PRN 121, size: 5, type: 5
+PRN 164, size: 3, type: 62
+PRN 254, size: 3, type: 71
+=================================
+GPU 46
+allocated memory: 11
+1 allocated types: {16}
+Allocated PRNs: 
+PRN 98, size: 4, type: 16
+PRN 155, size: 4, type: 16
+PRN 218, size: 3, type: 16
+=================================
+GPU 47
+allocated memory: 12
+2 allocated types: {73, 67}
+Allocated PRNs: 
+PRN 57, size: 2, type: 73
+PRN 89, size: 5, type: 67
+PRN 112, size: 3, type: 73
+PRN 175, size: 2, type: 73
+=================================
+GPU 48
+allocated memory: 10
+2 allocated types: {75, 14}
+Allocated PRNs: 
+PRN 176, size: 3, type: 14
+PRN 177, size: 5, type: 75
+PRN 255, size: 2, type: 14
+=================================
+GPU 49
+allocated memory: 11
+2 allocated types: {28, 55}
+Allocated PRNs: 
+PRN 63, size: 4, type: 55
+PRN 178, size: 5, type: 28
+PRN 191, size: 2, type: 28
+=================================
+GPU 50
+allocated memory: 11
+1 allocated types: {65}
+Allocated PRNs: 
+PRN 49, size: 4, type: 65
+PRN 66, size: 2, type: 65
+PRN 170, size: 5, type: 65
+=================================
+GPU 51
+allocated memory: 10
+1 allocated types: {22}
+Allocated PRNs: 
+PRN 1, size: 2, type: 22
+PRN 72, size: 3, type: 22
+PRN 315, size: 3, type: 22
+PRN 323, size: 2, type: 22
+=================================
+GPU 52
+allocated memory: 10
+2 allocated types: {73, 53}
+Allocated PRNs: 
+PRN 26, size: 2, type: 73
+PRN 192, size: 4, type: 73
+PRN 195, size: 4, type: 53
+=================================
+GPU 53
+allocated memory: 11
+3 allocated types: {2, 67, 29}
+Allocated PRNs: 
+PRN 86, size: 5, type: 29
+PRN 197, size: 2, type: 67
+PRN 203, size: 2, type: 2
+PRN 208, size: 2, type: 29
+=================================
+GPU 54
+allocated memory: 10
+1 allocated types: {6}
+Allocated PRNs: 
+PRN 37, size: 3, type: 6
+PRN 55, size: 4, type: 6
+PRN 200, size: 3, type: 6
+=================================
+GPU 55
+allocated memory: 12
+3 allocated types: {53, 43, 5}
+Allocated PRNs: 
+PRN 64, size: 2, type: 5
+PRN 201, size: 5, type: 43
+PRN 281, size: 5, type: 53
+=================================
+GPU 56
+allocated memory: 9
+1 allocated types: {20}
+Allocated PRNs: 
+PRN 9, size: 4, type: 20
+PRN 185, size: 2, type: 20
+PRN 205, size: 3, type: 20
+=================================
+GPU 57
+allocated memory: 12
+3 allocated types: {20, 37, 60}
+Allocated PRNs: 
+PRN 25, size: 3, type: 37
+PRN 60, size: 3, type: 20
+PRN 153, size: 2, type: 37
+PRN 209, size: 2, type: 60
+PRN 211, size: 2, type: 20
+=================================
+GPU 58
+allocated memory: 12
+2 allocated types: {11, 55}
+Allocated PRNs: 
+PRN 140, size: 3, type: 55
+PRN 213, size: 3, type: 55
+PRN 216, size: 3, type: 11
+PRN 294, size: 3, type: 11
+=================================
+GPU 59
+allocated memory: 8
+1 allocated types: {9}
+Allocated PRNs: 
+PRN 83, size: 5, type: 9
+PRN 119, size: 3, type: 9
+=================================
+GPU 60
+allocated memory: 11
+2 allocated types: {66, 31}
+Allocated PRNs: 
+PRN 221, size: 3, type: 31
+PRN 223, size: 3, type: 66
+PRN 309, size: 5, type: 31
+=================================
+GPU 61
+allocated memory: 10
+3 allocated types: {72, 35, 54}
+Allocated PRNs: 
+PRN 199, size: 3, type: 35
+PRN 226, size: 2, type: 35
+PRN 227, size: 2, type: 54
+PRN 228, size: 3, type: 72
+=================================
+GPU 62
+allocated memory: 11
+2 allocated types: {62, 22}
+Allocated PRNs: 
+PRN 232, size: 3, type: 22
+PRN 276, size: 3, type: 22
+PRN 325, size: 5, type: 62
+=================================
+GPU 63
+allocated memory: 10
+2 allocated types: {43, 75}
+Allocated PRNs: 
+PRN 190, size: 2, type: 75
+PRN 215, size: 3, type: 75
+PRN 233, size: 3, type: 75
+PRN 234, size: 2, type: 43
+=================================
+GPU 64
+allocated memory: 11
+2 allocated types: {17, 19}
+Allocated PRNs: 
+PRN 74, size: 3, type: 17
+PRN 136, size: 5, type: 19
+PRN 212, size: 3, type: 19
+=================================
+GPU 65
+allocated memory: 11
+2 allocated types: {72, 45}
+Allocated PRNs: 
+PRN 202, size: 5, type: 45
+PRN 243, size: 3, type: 72
+PRN 244, size: 3, type: 45
+=================================
+GPU 66
+allocated memory: 10
+2 allocated types: {18, 38}
+Allocated PRNs: 
+PRN 124, size: 2, type: 38
+PRN 247, size: 2, type: 38
+PRN 248, size: 4, type: 18
+PRN 321, size: 2, type: 38
+=================================
+GPU 67
+allocated memory: 12
+3 allocated types: {66, 68, 31}
+Allocated PRNs: 
+PRN 84, size: 2, type: 31
+PRN 102, size: 3, type: 68
+PRN 249, size: 2, type: 31
+PRN 251, size: 3, type: 68
+PRN 270, size: 2, type: 66
+=================================
+GPU 68
+allocated memory: 12
+2 allocated types: {75, 69}
+Allocated PRNs: 
+PRN 78, size: 3, type: 75
+PRN 101, size: 2, type: 75
+PRN 253, size: 5, type: 69
+PRN 256, size: 2, type: 75
+=================================
+GPU 69
+allocated memory: 11
+2 allocated types: {58, 26}
+Allocated PRNs: 
+PRN 33, size: 2, type: 58
+PRN 82, size: 2, type: 58
+PRN 186, size: 5, type: 26
+PRN 259, size: 2, type: 26
+=================================
+GPU 70
+allocated memory: 7
+1 allocated types: {48}
+Allocated PRNs: 
+PRN 222, size: 2, type: 48
+PRN 263, size: 5, type: 48
+=================================
+GPU 71
+allocated memory: 4
+1 allocated types: {21}
+Allocated PRNs: 
+PRN 266, size: 2, type: 21
+PRN 273, size: 2, type: 21
+=================================
+GPU 72
+allocated memory: 11
+1 allocated types: {46}
+Allocated PRNs: 
+PRN 29, size: 5, type: 46
+PRN 79, size: 3, type: 46
+PRN 272, size: 3, type: 46
+=================================
+GPU 73
+allocated memory: 12
+3 allocated types: {41, 46, 47}
+Allocated PRNs: 
+PRN 2, size: 2, type: 47
+PRN 260, size: 3, type: 46
+PRN 275, size: 5, type: 41
+PRN 299, size: 2, type: 41
+=================================
+GPU 74
+allocated memory: 11
+2 allocated types: {45, 29}
+Allocated PRNs: 
+PRN 51, size: 2, type: 29
+PRN 230, size: 5, type: 45
+PRN 279, size: 2, type: 29
+PRN 310, size: 2, type: 29
+=================================
+GPU 75
+allocated memory: 11
+3 allocated types: {64, 48, 5}
+Allocated PRNs: 
+PRN 92, size: 2, type: 64
+PRN 174, size: 2, type: 64
+PRN 225, size: 3, type: 48
+PRN 235, size: 2, type: 5
+PRN 282, size: 2, type: 64
+=================================
+GPU 76
+allocated memory: 10
+2 allocated types: {11, 35}
+Allocated PRNs: 
+PRN 150, size: 3, type: 35
+PRN 179, size: 2, type: 11
+PRN 182, size: 2, type: 35
+PRN 286, size: 3, type: 35
+=================================
+GPU 77
+allocated memory: 6
+1 allocated types: {56}
+Allocated PRNs: 
+PRN 278, size: 3, type: 56
+PRN 292, size: 3, type: 56
+=================================
+GPU 78
+allocated memory: 8
+1 allocated types: {24}
+Allocated PRNs: 
+PRN 246, size: 3, type: 24
+PRN 296, size: 5, type: 24
+=================================
+GPU 79
+allocated memory: 10
+1 allocated types: {74}
+Allocated PRNs: 
+PRN 237, size: 5, type: 74
+PRN 301, size: 3, type: 74
+PRN 327, size: 2, type: 74
+=================================
+GPU 80
+allocated memory: 11
+2 allocated types: {53, 62}
+Allocated PRNs: 
+PRN 10, size: 3, type: 62
+PRN 193, size: 2, type: 62
+PRN 288, size: 2, type: 53
+PRN 305, size: 2, type: 62
+PRN 306, size: 2, type: 53
+=================================
+GPU 81
+allocated memory: 11
+1 allocated types: {68}
+Allocated PRNs: 
+PRN 5, size: 2, type: 68
+PRN 277, size: 4, type: 68
+PRN 308, size: 5, type: 68
+=================================
+GPU 82
+allocated memory: 12
+3 allocated types: {16, 73, 2}
+Allocated PRNs: 
+PRN 154, size: 3, type: 2
+PRN 242, size: 3, type: 16
+PRN 311, size: 4, type: 16
+PRN 312, size: 2, type: 73
+=================================
+GPU 83
+allocated memory: 10
+3 allocated types: {76, 54, 36}
+Allocated PRNs: 
+PRN 132, size: 2, type: 76
+PRN 156, size: 2, type: 76
+PRN 314, size: 2, type: 54
+PRN 317, size: 4, type: 36
+=================================
+GPU 84
+allocated memory: 11
+4 allocated types: {24, 9, 20, 71}
+Allocated PRNs: 
+PRN 40, size: 5, type: 20
+PRN 56, size: 2, type: 9
+PRN 268, size: 2, type: 71
+PRN 318, size: 2, type: 24
+=================================
+GPU 85
+allocated memory: 9
+2 allocated types: {10, 4}
+Allocated PRNs: 
+PRN 42, size: 4, type: 10
+PRN 116, size: 2, type: 4
+PRN 240, size: 3, type: 4
+=================================
+GPU 86
+allocated memory: 11
+3 allocated types: {66, 45, 6}
+Allocated PRNs: 
+PRN 35, size: 4, type: 6
+PRN 130, size: 5, type: 45
+PRN 329, size: 2, type: 66
+=================================
+GPU 87
+allocated memory: 12
+3 allocated types: {49, 35, 52}
+Allocated PRNs: 
+PRN 189, size: 2, type: 52
+PRN 295, size: 4, type: 35
+PRN 330, size: 2, type: 35
+PRN 331, size: 2, type: 52
+PRN 332, size: 2, type: 49
+=================================
+GPU 88
+allocated memory: 11
+2 allocated types: {11, 60}
+Allocated PRNs: 
+PRN 7, size: 3, type: 60
+PRN 183, size: 3, type: 60
+PRN 257, size: 5, type: 11
+=================================
+GPU 89
+allocated memory: 10
+2 allocated types: {32, 65}
+Allocated PRNs: 
+PRN 172, size: 4, type: 65
+PRN 184, size: 2, type: 65
+PRN 265, size: 2, type: 65
+PRN 291, size: 2, type: 32
+=================================
+GPU 90
+allocated memory: 11
+2 allocated types: {33, 23}
+Allocated PRNs: 
+PRN 4, size: 4, type: 23
+PRN 30, size: 3, type: 23
+PRN 229, size: 2, type: 33
+PRN 250, size: 2, type: 33
+=================================
+GPU 91
+allocated memory: 7
+1 allocated types: {33}
+Allocated PRNs: 
+PRN 111, size: 2, type: 33
+PRN 131, size: 2, type: 33
+PRN 236, size: 3, type: 33
+=================================
+GPU 92
+allocated memory: 12
+2 allocated types: {50, 15}
+Allocated PRNs: 
+PRN 24, size: 3, type: 50
+PRN 65, size: 2, type: 15
+PRN 194, size: 5, type: 15
+PRN 307, size: 2, type: 15
+=================================
+GPU 93
+allocated memory: 12
+1 allocated types: {9}
+Allocated PRNs: 
+PRN 0, size: 4, type: 9
+PRN 187, size: 5, type: 9
+PRN 300, size: 3, type: 9
+=================================
+GPU 94
+allocated memory: 9
+2 allocated types: {42, 50}
+Allocated PRNs: 
+PRN 139, size: 3, type: 42
+PRN 219, size: 3, type: 42
+PRN 302, size: 3, type: 50
+=================================
+GPU 95
+allocated memory: 11
+2 allocated types: {4, 14}
+Allocated PRNs: 
+PRN 71, size: 2, type: 4
+PRN 169, size: 3, type: 4
+PRN 239, size: 3, type: 14
+PRN 267, size: 3, type: 14
+=================================
+GPU 96
+allocated memory: 12
+3 allocated types: {40, 18, 30}
+Allocated PRNs: 
+PRN 16, size: 3, type: 30
+PRN 85, size: 5, type: 40
+PRN 133, size: 2, type: 18
+PRN 293, size: 2, type: 40
+=================================
+GPU 97
+allocated memory: 10
+1 allocated types: {36}
+Allocated PRNs: 
+PRN 21, size: 5, type: 36
+PRN 93, size: 3, type: 36
+PRN 108, size: 2, type: 36
+=================================
+GPU 98
+allocated memory: 10
+1 allocated types: {47}
+Allocated PRNs: 
+PRN 41, size: 3, type: 47
+PRN 96, size: 5, type: 47
+PRN 122, size: 2, type: 47
+=================================
+GPU 99
+allocated memory: 12
+2 allocated types: {0, 77}
+Allocated PRNs: 
+PRN 81, size: 5, type: 0
+PRN 148, size: 4, type: 77
+PRN 238, size: 3, type: 77
+=================================
+Feasibility: True
+Objective function: 192
+=================================
