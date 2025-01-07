@@ -9,7 +9,7 @@ class Solution:
         self.allocation =  [[0 for _ in range(instance.M)] for _ in range(instance.n)]
         self.output_file = output_file
         
-    
+    # Solução inicial
     def create_initial_solution(self):
         for prn in range(self.instance.M):
             for gpu in range(self.instance.n):
@@ -100,7 +100,8 @@ class Solution:
             self.disallocate(target_gpu, prn)
             self.allocate(current_gpu, prn)
             return False
-        
+
+    # Busca local iterada
     def ils(self, perturbation_size, max_iterations):
         current_solution = self
         best_solution = current_solution
@@ -150,6 +151,7 @@ class Solution:
 
     #============================ FIM Vizinhanca ============================
 
+    # Gera uma cópia da solução atual
     def generate_copy(self):
         copy = Solution(self.instance, self.output_file)
         copy.allocation = [gpu.copy() for gpu in self.allocation]
@@ -186,6 +188,7 @@ class Solution:
                 allocated_types.add(prn_type)
         return allocated_types
     
+    # Imprime a solução
     def log_and_print(self, message):
         log_and_print(message, self.output_file)
 

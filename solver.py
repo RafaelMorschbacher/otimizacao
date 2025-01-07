@@ -62,7 +62,7 @@ def solve_instance_glpk(instance_path, time_limit, output_file):
     else:
         log_and_print("No optimal solution found.", output_file)
 
-
+# Rodar o solver 
 output_file = open("output_dog_6.txt", "w") 
 instance_path = "instances/dog_6.txt"
 time_limit = 60*60*12  # 12 horas
